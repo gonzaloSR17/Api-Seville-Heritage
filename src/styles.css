@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('./assets/seville/Seville-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.font-main-title {
+    font-family: 'MiFuente', sans-serif !important;
+}
+
+@keyframes drop {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-drop {
+  animation: drop 1s ease-out forwards;
+}
+
+
+:root {
+  /* El color exacto de tu imagen es #e9ead1 */
+  --color-fondo-suave: #e9ead1;
+  --color-texto-contraste: #4a4a3a;
+}
+
+.footer-main {
+  background-color: var(--color-fondo-suave);
+  color: var(--color-texto-contraste);
+  font-family: sans-serif;
+}

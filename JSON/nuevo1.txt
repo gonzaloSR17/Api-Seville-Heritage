@@ -1,0 +1,32 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
+public class Teleports : MonoBehaviour
+{
+#if UNITY_EDITOR
+    [SerializeField] private SceneAsset SceneAcargar;  // Esto aparece en el Inspector solo en el Editor
+#endif
+
+    [SerializeField] private string sceneName;  // Este es el nombre de la escena que será cargado en runtime
+
+    private void OnTriggerEnter2D(Collider2D objeto)
+    {
+        if (objeto.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(sceneName);  // Carga la escena usando el nombre almacenado
+        }
+    }
+
+    private void OnValidate()
+    {
+#if UNITY_EDITOR
+        if (SceneAcargar != null)
+        {
+            sceneName = SceneAcargar.name;  // Asigna automáticamente el nombre de la escena seleccionada
+        }
+#endif
+    }
+}
