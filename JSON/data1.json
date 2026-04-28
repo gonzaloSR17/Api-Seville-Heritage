@@ -6,8 +6,8 @@
 		"construction": "1926",
 		"architect": "Aníbal González Álvarez-Ossorio",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_LUCA_DE_TENA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_LUCA_DE_TENA_INTERIOR.jpg"
 		},
 		"name": "Casa Luca de Tena",
 		"location": {
@@ -30,8 +30,8 @@
 		"construction": "1930",
 		"architect": "Vicente Traver",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_CORPUS_CHRISTI.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_CORPUS_CHRISTI_INTERIOR.jpg"
 		},
 		"name": "Parroquia Corpus Christi",
 		"location": {
@@ -54,8 +54,8 @@
 		"construction": "1927",
 		"architect": "José Perez Reina",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CUARTEL_ARTILLERIA_RACA14.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CUARTEL_ARTILLERIA_RACA14_INTERIOR.jpg"
 		},
 		"name": "RACA 14 - Regimiento de Artillería de Campaña nº 14 (Acuartelamiento Daoiz y Velarde)",
 		"location": {
@@ -78,8 +78,8 @@
 		"construction": "1937",
 		"architect": "José Pérez Reina",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOSPITAL_MILITAR_QUEIPO_DE_LLANO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOSPITAL_MILITAR_QUEIPO_DE_LLANO_INTERIOR.jpg"
 		},
 		"name": "Acuartelamiento Vigil de Quiñones - Hospital Militar Queipo de Llano - Hospital de La Legión",
 		"location": {
@@ -102,8 +102,8 @@
 		"construction": "1928",
 		"architect": "José Pérez Reina",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_CUARTEL_ALFONSO_XII.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_CUARTEL_ALFONSO_XII_INTERIOR.png"
 		},
 		"name": "Antiguo Cuartel Alfonso XIII",
 		"location": {
@@ -126,8 +126,8 @@
 		"construction": "1894",
 		"architect": "José Solares",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_ROSA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_ROSA_INTERIOR.jpg"
 		},
 		"name": "la Casa Rosa (Villa Eugenia)",
 		"location": {
@@ -150,8 +150,8 @@
 		"construction": "1929",
 		"architect": "Manuel María Amábilis Domínguez",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MEXICO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MEXICO_INTERIOR.jpg"
 		},
 		"name": "Pabellón de México (Exposición Iberoamericana de Sevilla 1929)",
 		"location": {
@@ -174,8 +174,8 @@
 		"construction": "1929",
 		"architect": "José Granados de la Vega",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_COLOMBIA.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_COLOMBIA_INTERIOR.jpg"
 		},
 		"name": "Pabellón de Colombia (Exposición Iberoamericana de Sevilla 1929)",
 		"location": {
@@ -198,8 +198,8 @@
 		"construction": "1929",
 		"architect": "José Gutiérrez Lescura & Mariano Bertuchi",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MARRUECOS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MARRUECOS_INTERIOR.jpg"
 		},
 		"name": "Pabellón de Marruecos (Exposición Iberoamericana de Sevilla 1929)",
 		"location": {
@@ -222,8 +222,8 @@
 		"construction": "1929",
 		"architect": "Pedro Paulo Bernardes Vastos",
 		"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_BRASIL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_BRASIL_INTERIOR.jpg"
 		},
 		"name": "Pabellón de Brasil (Exposición Iberoamericana de Sevilla 1929)",
 		"location": {
@@ -246,8 +246,8 @@
 	  "construction": "1916",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_REAL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_REAL_INTERIOR.jpg"
 		},
 	  "name": "Pabellón Real (Sevilla)",
 		"location": {
@@ -271,8 +271,8 @@
 	"construction": "1929",
 	"architect": "Aurelio Gómez Millán",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DOMECQ.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DOMECQ.jpg"
 		},
 	"name": "Pabellón Domecq (Exposición Iberoamericana de Sevilla 1929)",
 	"location": {
@@ -295,8 +295,8 @@
 	"construction": "1914",
 	"architect": "Aníbal González Álvarez-Ossorio",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_ARTE_ANTIGUO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_ARTE_ANTIGUO_INTERIOR.jpg"
 		},
 	"name": "Pabellón de Arte Antiguo (Exposición Iberoamericana de Sevilla 1929)",
 	"location": {
@@ -319,8 +319,8 @@
 	"construction": "1919",
 	"architect": "Aníbal González Álvarez-Ossorio",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/MUSEO_ARQUEOLOGICO_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/MUSEO_ARQUEOLOGICO_SEVILLA_INTERIOR.jpg"
 		},
 	"name": "Museo Arqueológico Provincial de Sevilla",
 	"location": {
@@ -343,8 +343,8 @@
 	"construction": "1929",
 	"architect": "Martín San Noel",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ARGENTINA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ARGENTINA_INTERIOR.JPG"
 		},
 	"name": "Pabellón de Argentina (Exposición Iberoamericana de Sevilla 1929)",
 	"location": {
@@ -367,8 +367,8 @@
 	"construction": "1929",
 	"architect": "unknown",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_GUATEMALA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_GUATEMALA_INTERIOR.jpg"
 		},
 	"name": "Pabellón de Guatemala (Exposición Iberoamericana de Sevilla 1929)",
 	"location": {
@@ -391,8 +391,8 @@
 	"construction": "1929",
 	"architect": "Aníbal González",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PLAZA_DE_ESPA%C3%91A.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PLAZA_DE_ESPA%C3%91A_INTERIOR.jpg"
 		},
 	"name": "Plaza de España",
 	"location": {
@@ -415,8 +415,8 @@
 	"construction": "1893",
 	"architect": "José Hernández",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/COSTURERO_DE_LA_REINA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/COSTURERO_DE_LA_REINA_INTERIOR.jpg"
 		},
 	"name": "Costurero de la Reina",
 	"location": {
@@ -439,8 +439,8 @@
 	"construction": "1929",
 	"architect": "William Templeton Johnson",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ESTADOS_UNIDOS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ESTADOS_UNIDOS_INTERIOR.jpg"
 		},
 	"name": "Pabellón de Estados Unidos (Exposición Iberoamericana de Sevilla 1929)",
 	"location": {
@@ -463,8 +463,8 @@
 	"construction": "1929",
 	"architect": "Antonio Mauricio Cravotto Schiavon",
 	"images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_URUGUAY.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_URUGUAY_INTERIOR.jpeg"
 		},
 	"name": "Pabellón de Uruguay (Exposición Iberoamericana de Sevilla 1929)",
 	"location": {
@@ -487,8 +487,8 @@
 	  "construction": "1929",
 	  "architect": "Juan Martínez Gutiérrez",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CHILE.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CHILE_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Chile (Exposición Iberoamericana de Sevilla 1929)",
 	  "location": {
@@ -511,8 +511,8 @@
 	  "construction": "1929",
 	  "architect": "Manuel Piqueras Cotolí",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PERU.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PERU_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Perú (Exposición Iberoamericana de Sevilla 1929)",
 	  "location": {
@@ -535,8 +535,8 @@
 	  "construction": "1929",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASINO_DE_LA_EXPOSICION.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASINO_DE_LA_EXPOSICION_INTERIOR.jpg"
 		},
 	  "name": "Casino de la Exposición",
 	  "location": {
@@ -559,8 +559,8 @@
 	  "construction": "1929",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CRISTAL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CRISTAL_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Cristal (Exposición Iberoamericana de Sevilla 1929)",
 	  "location": {
@@ -581,8 +581,8 @@
 	  "construction": "1929",
 	  "architect": "Carlos y Guilherme Rebelo de Andrade",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PORTUGAL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PORTUGAL_INTERIOR.JPG"
 		},
 	  "name": "Pabellón de Portugal (Exposición Iberoamericana de Sevilla 1929)",
 	  "location": {
@@ -605,8 +605,8 @@
 	  "construction": "1728",
 	  "architect": "Sebastián Van der Borcht",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REAL_FABRICAS_DE_TABACOS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REAL_FABRICAS_DE_TABACOS_INTERIOR.jpg"
 		},
 	  "name": "Real Fábrica de Tabacos de Sevilla",
 	  "location": {
@@ -629,8 +629,8 @@
 	  "construction": "1682",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_DE_SAN_TELMO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_SAN_TELMO_INTERIOR.jpg"
 		},
 	  "name": "Palacio de San Telmo",
 	  "location": {
@@ -653,8 +653,8 @@
 	  "construction": "1220",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_DEL_ORO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_DEL_ORO_INTERIOR.jpg"
 		},
 	  "name": "Torre del Oro",
 	  "location": {
@@ -677,8 +677,8 @@
 	  "construction": "1929",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOTEL_ALFONSO_XIII.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOTEL_ALFONSO_XIII_INTERIOR.jpg"
 		},
 	  "name": "Hotel Alfonso XIII",
 	  "location": {
@@ -701,8 +701,8 @@
 	  "construction": "913",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REAL_ALCAZAR_DE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REAL_ALCAZAR_DE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Real Alcázar de Sevilla",
 	  "location": {
@@ -725,8 +725,8 @@
 	  "construction": "1674",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SANTA_MAR%C3%8DA_DE_JESUS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SANTA_MAR%C3%8DA_DE_JESUS_INTERIOR.jpg"
 		},
 	  "name": "Capilla de Santa María de Jesús",
 	  "location": {
@@ -749,8 +749,8 @@
 	  "construction": "1674",
 	  "architect": "Juan de Herrera el Mozo (interior contributions by Valdés Leal & Murillo)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOSPITAL_DE_LA_CARIDAD.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOSPITAL_DE_LA_CARIDAD_INTERIOR.jpg"
 		},
 	  "name": "Hospital de la Caridad",
 	  "location": {
@@ -774,8 +774,8 @@
 	  "construction": "1584",
 	  "architect": "Juan de Herrera",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ARCHIVO_GENERAL_DE_INDIAS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ARCHIVO_GENERAL_DE_INDIAS_INTERIOR.jpg"
 		},
 	  "name": "Archivo General de Indias",
 	  "location": {
@@ -798,8 +798,8 @@
 	  "construction": "1761",
 	  "architect": "Joaquín de Arana",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PLAZA_DE_TOROS_DE_LA_REAL_MAESTRANZA_DE_CABALLERIA_DE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PLAZA_DE_TOROS_DE_LA_REAL_MAESTRANZA_DE_CABALLERIA_DE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Plaza de Toros de la Real Maestranza de Caballería de Sevilla",
 	  "location": {
@@ -822,8 +822,8 @@
 	  "construction": "1401",
 	  "architect": "Alonso Martínez & various",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CATEDRAL_DE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CATEDRAL_DE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Catedral de Sevilla",
 	  "location": {
@@ -846,8 +846,8 @@
 	  "construction": "1184",
 	  "architect": "Ahmad Ben Baso (original minaret)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/LA_GIRALDA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/LA_GIRALDA.jpg"
 		},
 	  "name": "La Giralda",
 	  "location": {
@@ -870,8 +870,8 @@
 	  "construction": "1572",
 	  "architect": "Varios (renacentista y barroco posteriores)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_AZPRBISPAL_DE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_AZPRBISPAL_DE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Palacio Arzobispal de Sevilla",
 	  "location": {
@@ -894,8 +894,8 @@
 	  "construction": "1483",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_DE_LAS_DUE%C3%91AS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_DE_LAS_DUE%C3%91AS_INTERIOR.jpg"
 		},
 	  "name": "Palacio de las Dueñas",
 	  "location": {
@@ -918,8 +918,8 @@
 	  "construction": "1910",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_FABIOLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_FABIOLA_INTERIOR.jpg"
 		},
 	  "name": "Casa Fabiola",
 	  "location": {
@@ -942,8 +942,8 @@
 	  "construction": "18th century",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_PALACIO_DEL_PLUMAREJO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_PALACIO_DEL_PLUMAREJO_INTERIOR.jpg"
 		},
 	  "name": "Casa Palacio del Pumarejo",
 	  "location": {
@@ -966,8 +966,8 @@
 	  "construction": "1483",
 	  "architect": "Enrique Egas / Fadrique Enríquez de Rivera",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_PILATOS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_PILATOS_INTERIOR.jpg"
 		},
 	  "name": "Casa de Pilatos",
 	  "location": {
@@ -990,8 +990,8 @@
 	  "construction": "1356",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_MARCOS_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_MARCOS_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Marcos",
 	  "location": {
@@ -1014,8 +1014,8 @@
 	  "construction": "1266",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REAL_PARROQUIA_DE_SE%C3%91ORA_SANTA_ANA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REAL_PARROQUIA_DE_SE%C3%91ORA_SANTA_ANA_INTERIOR.jpg"
 		},
 	  "name": "Real Parroquia de Señora Santa Ana",
 	  "location": {
@@ -1038,8 +1038,8 @@
 	  "construction": "1270",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_GIL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_GIL_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Gil",
 	  "location": {
@@ -1062,8 +1062,8 @@
 	  "construction": "1356",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_ROMAN.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_ROMAN_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Román",
 	  "location": {
@@ -1086,8 +1086,8 @@
 	  "construction": "1265",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SANTA_MARINA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SANTA_MARINA_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de Santa Marina",
 	  "location": {
@@ -1110,8 +1110,8 @@
 	  "construction": "1249",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_OMNIUN_SANCTORUM.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_OMNIUN_SANCTORUM_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de Omnium Sanctorum",
 	  "location": {
@@ -1135,8 +1135,8 @@
 	  "construction": "1300",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_ESTEBAN.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_ESTEBAN_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Esteban",
 	  "location": {
@@ -1159,8 +1159,8 @@
 	  "construction": "1949",
 	  "architect": "Aurelio Gómez Millán",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BASILICA_DE_LA_MACARENA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BASILICA_DE_LA_MACARENA_INTERIOR.jpg"
 		},
 	  "name": "Basílica de la Macarena",
 	  "location": {
@@ -1183,8 +1183,8 @@
 	  "construction": "1731",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_LUIS_DE_LOS_FRANCESES.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_LUIS_DE_LOS_FRANCESES_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Luis de los Franceses",
 	  "location": {
@@ -1207,8 +1207,8 @@
 	  "construction": "1709",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SANTA_MAR%C3%8DA_DE_JESUS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SANTA_MAR%C3%8DA_DE_JESUS_INTERIOR.jpg"
 		},
 	  "name": "Real Parroquia de Santa María Magdalena, de Sevilla",
 	  "location": {
@@ -1231,8 +1231,8 @@
 	  "construction": "1665",
 	  "architect": "Juan González",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SANTA_MARIA_LA_BLANCA_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SANTA_MARIA_LA_BLANCA_SEVILLA._INTERIORjpg.jpg"
 		},
 	  "name": "Iglesia de Santa María la Blanca",
 	  "location": {
@@ -1255,8 +1255,8 @@
 	  "construction": "1300s",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_LORENZO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_LORENZO_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Lorenzo",
 	  "location": {
@@ -1279,8 +1279,8 @@
 	  "construction": "1965",
 	  "architect": "Alberto Balbontín Orta & Antonio Delgado Roig",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BASILICA_DE_JESUS_DEL_GRAN_PODER.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BASILICA_DE_JESUS_DEL_GRAN_PODER_INTERIOR.jpg"
 		},
 	  "name": "Basílica de Jesús del Gran Poder",
 	  "location": {
@@ -1303,8 +1303,8 @@
 	  "construction": "1674",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_COLEGIAL_DEL_DIVINO_SALVADOR.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_COLEGIAL_DEL_DIVINO_SALVADOR_INTERIOR.jpg"
 		},
 	  "name": "Iglesia Colegial del Divino Salvador",
 	  "location": {
@@ -1327,8 +1327,8 @@
 	  "construction": "1794–1841",
 	  "architect": "Julián Barnecilla / José Echamorro",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_IDELFONSO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_IDELFONSO_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Ildefonso",
 	  "location": {
@@ -1351,8 +1351,8 @@
 	  "construction": "1475–1489",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SANTA_PAULA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SANTA_PAULA_INTERIOR.jpg"
 		},
 	  "name": "Convento de Santa Paula",
 	  "location": {
@@ -1375,8 +1375,8 @@
 	  "construction": "1295 (foundation) / late 1500s (church)",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SAN_LEADRO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SAN_LEADRO_INTERIOR.jpg"
 		},
 	  "name": "Convento de San Leandro",
 	  "location": {
@@ -1399,8 +1399,8 @@
 	  "construction": "1248 (foundation) / mainly 1500s–1600s",
 	  "architect": "unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SAN_CLEMENTE.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SAN_CLEMENTE_INTERIOR.jpg"
 		},
 	  "name": "Convento de San Clemente",
 	  "location": {
@@ -1423,8 +1423,8 @@
 	  "construction": "1740s–1775",
 	  "architect": "Matías de Figueroa",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_JACINTO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_JACINTO_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Jacinto",
 	  "location": {
@@ -1447,8 +1447,8 @@
 	  "construction": "1564",
 	  "architect": "Diego de Riaño (original design), Juan Sánchez, Hernán Ruiz II",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/AYUNTAMIENTO_DE_SEVILLA.jpeg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/AYUNTAMIENTO_DE_SEVILLA_INTERIOR.jpeg"
 		},
 	  "name": "Ayuntamiento de Sevilla",
 	  "location": {
@@ -1471,8 +1471,8 @@
 	  "construction": "1914–1922",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/Edificio%20de%20La%20Adri%C3%A1tica.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/Edificio%20de%20La%20Adri%C3%A1tica_INTERIOR.jpg"
 		},
 	  "name": "Edificio de La Adriática",
 	  "location": {
@@ -1495,8 +1495,8 @@
 	  "construction": "1925–1928",
 	  "architect": "Antonio Palacios Ramilo",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BANCO_DE_ESPA%C3%91A.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BANCO_DE_ESPA%C3%91A_INTERIOR.jpg"
 		},
 	  "name": "Banco de España (Sevilla)",
 		"location": {
@@ -1519,8 +1519,8 @@
 	  "construction": "1699–1766",
 	  "architect": "Pedro Romero / Esteban Paredes",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SAN_JOSE.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SAN_JOSE_INTERIOR.jpg"
 		},
 	  "name": "Capilla de San José",
 	  "location": {
@@ -1543,8 +1543,8 @@
 	  "construction": "1926–1929",
 	  "architect": "Juan Talavera y Heredia",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_DE_TELEFONICA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_DE_TELEFONICA_INTERIOR.jpg"
 		},
 	  "name": "Edificio de Telefónica (Sevilla)",
 	  "location": {
@@ -1592,8 +1592,8 @@
 	  "construction": "1926–1929",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_DE_LA_UNION_Y_EL_FENIX.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_DE_LA_UNION_Y_EL_FENIX_INTERIOR.jpg"
 		},
 	  "name": "Edificio de La Unión y el Fénix",
 	  "location": {
@@ -1616,8 +1616,8 @@
 	  "construction": "1927–1930",
 	  "architect": "Joaquín Otamendi y Machimbarrena",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/OFICINA_DE_CORREOS_Y_TELEGRAFOS_DE_SEVILLA.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/OFICINA_DE_CORREOS_Y_TELEGRAFOS_DE_SEVILLA_INTERIOR.JPG"
 		},
 	  "name": "Oficina de Correos y Telégrafos de Sevilla",
 	  "location": {
@@ -1640,8 +1640,8 @@
 	  "construction": "1929–1931",
 	  "architect": "José y Aurelio Gómez Millán",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_COLISEO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_COLISEO_INTERIOR.jpg.png"
 		},
 	  "name": "Edificio Coliseo España",
 	  "location": {
@@ -1664,8 +1664,8 @@
 	  "construction": "1918–1922",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_SANTA_LUCIA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_SANTA_LUCIA_INTERIOR.jpg"
 		},
 	  "name": "Edificio Santa Lucía",
 	  "location": {
@@ -1688,8 +1688,8 @@
 	  "construction": "1925",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_VIVIENDA_PARA_ANTONIO_GONZALEZ.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_VIVIENDA_PARA_ANTONIO_GONZALEZ_INTERIOR.jpg"
 		},
 	  "name": "Casa de viviendas para Antonio González",
 	  "location": {
@@ -1712,8 +1712,8 @@
 	  "construction": "1910",
 	  "architect": " Aníbal González Álvarez-Ossorio ",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_ALVARO_DAVILA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_ALVARO_DAVILA_INTERIOR.jpg"
 		},
 	  "name": "Casa Álvaro Dávila",
 	  "location": {
@@ -1736,8 +1736,8 @@
 	  "construction": "1928",
 	  "architect": "Vicente Traver",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_LA_CONCEPCION_INMACULADA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_LA_CONCEPCION_INMACULADA_INTERIOR.jpg"
 		},
 	  "name": "Parroquia de la Concepción Inmaculada",
 	  "location": {
@@ -1760,8 +1760,8 @@
 	  "construction": "1958",
 	  "architect": "Manuel Muñoz Monasterio",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESTADIO_RAMON_SANCHEZ_PIZJUAN_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESTADIO_RAMON_SANCHEZ_PIZJUAN_SEVILLA_INTERIOR.jpg.png"
 		},
 	  "name": "Estadio Ramón Sánchez-Pizjuán",
 	  "location": {
@@ -1784,8 +1784,8 @@
 	  "construction": "1943 - 1951",
 	  "architect": "Manuel Galnares Sagastizábal",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOSPITAL_SAN_JUAN_DE_DIOS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOSPITAL_SAN_JUAN_DE_DIOS_INTERIOR.jpg"
 		},
 	  "name": "Hospital San Juan de Dios",
 	  "location": {
@@ -1808,8 +1808,8 @@
 	  "construction": "1910 - 1916",
 	  "architect": "José Sáez y López",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_MATADERO_MUNICIPAL.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_MATADERO_MUNICIPAL_INTERIOR.JPG"
 		},
 	  "name": "Antiguo Matadero Municipal",
 	  "location": {
@@ -1832,8 +1832,8 @@
 	  "construction": "1171 (Original) / 1892 (Current Palace)",
 	  "architect": "Ahmad Ben Baso (Almohad) / Unknown (19th century pavilion)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_BUHAIRA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_BUHAIRA_INTERIOR.jpg"
 		},
 	  "name": "Centro Cívico Buhaira (Palacio de la Buhaira)",
 	  "location": {
@@ -1856,8 +1856,8 @@
 	  "construction": "1928 (Abandoned 1930)",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CIMIENTOS_DE_LA_BASILICA_DE_LA_MILAGROSA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CIMIENTOS_DE_LA_BASILICA_DE_LA_MILAGROSA.jpg"
 		},
 	  "name": "Cimientos de la Basílica de la Milagrosa (Proyecto Inacabado)",
 	  "location": {
@@ -1880,8 +1880,8 @@
 	  "construction": "1612",
 	  "architect": "Juan de Oviedo y de la Bandera",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_SAN_BENITO_ABAD.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_SAN_BENITO_ABAD_INTERIOR.JPG"
 		},
 	  "name": "Parroquia de San Benito Abad",
 	  "location": {
@@ -1901,11 +1901,11 @@
 	{
 	  "_id": 81,
 	  "type": "Cultural / Civic Center",
-	  "construction": "1861 (Approx.)",
+	  "construction": "1861",
 	  "architect": "Joaquín de la Concha Alcalde",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_LAS_SIRENAS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_LAS_SIRENAS_INTERIOR.jpg"
 		},
 	  "name": "Centro Cívico Las Sirenas (Casa de las Sirenas)",
 	  "location": {
@@ -1923,13 +1923,37 @@
 	  "description": "A French-style palatial mansion built in the mid-19th century. Its name comes from the two sphinxes (often called mermaids by locals) that guard its entrance. After decades of neglect and near-demolition, it was restored in the 1990s and converted into a civic center. It stands out for its romantic garden and its unique aesthetic, which contrasts with the surrounding Mudejar and Baroque architecture of Seville."
 	},
 	{
+	  "_id": 80,
+	  "type": "Religious / Historic building",
+	  "construction": "1682",
+	  "architect": "Unknown (Promoted by Marta de Jesús Carrillo and Beatriz Jerónima de la Concepción)",
+	  "images": {
+		  "exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DEL_POZO_SANTO.JPG",
+		  "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DEL_POZO_SANTO_INTERIOR.JPG"
+	  },
+	  "name": "Iglesia del Pozo Santo",
+	  "location": {
+		"lat": 37.3943,
+		"lng": -5.9926
+	  },
+	  "category": "Church",
+	  "style": "Baroque",
+	  "district": "Casco Antiguo",
+	  "address": "C. Misericordia, 3, 41003 Sevilla",
+	  "link": {
+		  "maps": "https://maps.app.goo.gl/iNfh69sdKKAxj1589",
+		  "website": "https://www.sevilla.org/"
+		},
+	  "description": "Part of the Hospital del Pozo Santo, founded in 1667 by the Franciscan Tertiaries. The church was consecrated in 1682 and is dedicated to the Christ of Sorrows. It is a prime example of Sevillian Baroque, featuring a simple yet elegant facade. The hospital has historically served as a home for elderly and disabled women, a mission that continues to this day."
+	},
+	{
 	  "_id": 82,
 	  "type": "Palace / Historic building",
 	  "construction": "17th Century (Late)",
 	  "architect": "Pedro Romero (attributed)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_DE_BUCARELLI.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_DE_BUCARELLI_INTERIOR.jpg"
 		},
 	  "name": "Palacio de Bucarelli (Palacio de los Condes de Santa Coloma)",
 	  "location": {
@@ -1952,8 +1976,8 @@
 	  "construction": "1873",
 	  "architect": "Juan Talavera de la Vega",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CINE_CERCANTES.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CINE_CERCANTES_INTERIOR.jpg"
 		},
 	  "name": "Cine Cervantes (Antiguo Teatro Cervantes)",
 	  "location": {
@@ -1976,8 +2000,8 @@
 	  "construction": "1701 - 1725",
 	  "architect": "Diego Antonio Díaz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SANTA_ROSALIA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_SANTA_ROSALIA_INTERIOR.jpg"
 		},
 	  "name": "Convento de Santa Rosalía",
 	  "location": {
@@ -2000,8 +2024,8 @@
 	  "construction": "12th Century (Almohad Period)",
 	  "architect": "Unknown (Almohad builders)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BA%C3%91OS_DE_LA_REINA_MORA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/BA%C3%91OS_DE_LA_REINA_MORA_INTERIOR.jpg"
 		},
 	  "name": "Baños de la Reina Mora",
 	  "location": {
@@ -2048,8 +2072,8 @@
 	  "construction": "1300",
 	  "architect": "Unknown (Original) / Diego Antonio Díaz (Baroque chapels)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_SAN_VICENTE_MARTIR.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_SAN_VICENTE_MARTIR_INTERIOR.jpg"
 		},
 	  "name": "Parroquia de San Vicente Mártir",
 	  "location": {
@@ -2072,8 +2096,8 @@
 	  "construction": "1612",
 	  "architect": "Juan de Oviedo y de la Bandera",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/MUSEO_DE_BELLAS_ARTES_DE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/MUSEO_DE_BELLAS_ARTES_DE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Museo de Bellas Artes de Sevilla (Antiguo Convento de la Merced)",
 	  "location": {
@@ -2096,8 +2120,8 @@
 	  "construction": "1758 (Current building)",
 	  "architect": "Unknown (Reconstruction)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_GREGORIO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_GREGORIO_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Gregorio (Padres Mercedarios)",
 	  "location": {
@@ -2123,7 +2147,7 @@
 			"exterior": "",
 		    "interior": ""
 		},
-	  "name": "Iglesia de San Gregorio",
+	  "name": "Iglesia de San Antonio Abad",
 	  "location": {
 		"lat": 37.3925,
 		"lng": -5.9967
@@ -2141,11 +2165,11 @@
 	{
 	  "_id": 91,
 	  "type": "Palace / Historic building",
-	  "construction": "1907 (Major renovation)",
+	  "construction": "1907",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_DE_MONSALVES.png",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PALACIO_DE_MONSALVES_INTERIOR.png"
 		},
 	  "name": "Palacio de Monsalves",
 	  "location": {
@@ -2168,8 +2192,8 @@
 	  "construction": "1608",
 	  "architect": "Juan de Oviedo y de la Bandera",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DEL_SANTO_ANGEL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DEL_SANTO_ANGEL_INTERIOR.jpg"
 		},
 	  "name": "Convento del Santo Ángel (Carmelitas Descalzos)",
 	  "location": {
@@ -2192,8 +2216,8 @@
 	  "construction": "1924 (Reconstruction)",
 	  "architect": "Unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DEL_MAYOR_DOLOR.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DEL_MAYOR_DOLOR_INTERIOR.JPG"
 		},
 	  "name": "Capilla del Mayor Dolor",
 	  "location": {
@@ -2216,8 +2240,8 @@
 	  "construction": "1693",
 	  "architect": "Bernardo de Bustamante (Original) / Rafael de la Hoz (Renovation)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_LA_PIEDAD.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_LA_PIEDAD_INTERIOR.jpg"
 		},
 	  "name": "Capilla de la Piedad (Hermandad del Baratillo)",
 	  "location": {
@@ -2240,8 +2264,8 @@
 	  "construction": "1252",
 	  "architect": "Unknown (Commissioned by Alfonso X the Wise)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REALES_ATARAZANAS_DE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/REALES_ATARAZANAS_DE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Reales Atarazanas de Sevilla",
 	  "location": {
@@ -2264,8 +2288,8 @@
 	  "construction": "1945 - 1950",
 	  "architect": "Joaquín Barquín y Barrón",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PLAZA_DEL_CABILDO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PLAZA_DEL_CABILDO_INTERIOR.jpg"
 		},
 	  "name": "Plaza del Cabildo",
 	  "location": {
@@ -2288,8 +2312,8 @@
 	  "construction": "18th Century (Reformed in 1940s)",
 	  "architect": "Sebastián Van der Borcht (Original) / Juan Talavera y Heredia (Reforms)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_EDIFICIO_DE_LA_REAL_CASA_DE_LA_MONEDA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_EDIFICIO_DE_LA_REAL_CASA_DE_LA_MONEDA_INTERIOR.jpg"
 		},
 	  "name": "Antiguo Edificio de la Real Casa de la Moneda (Agencia Tributaria)",
 	  "location": {
@@ -2312,8 +2336,8 @@
 	  "construction": "1221",
 	  "architect": "Unknown (Almohad builders)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_DE_LA_PLATA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_DE_LA_PLATA_INTERIOR.jpg"
 		},
 	  "name": "Torre de la Plata",
 	  "location": {
@@ -2336,8 +2360,8 @@
 	  "construction": "1665 - 1728",
 	  "architect": "José Tirado",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_SANTA_CRUZ.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PARROQUIA_DE_SANTA_CRUZ_INTERIOR.jpg"
 		},
 	  "name": "Parroquia de Santa Cruz",
 	  "location": {
@@ -2360,8 +2384,8 @@
 	  "construction": "1577",
 	  "architect": "Unknown (Original 16th Century) / Manuel de la Lastra (20th Century Restoration)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_SALINAS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_DE_SALINAS_INTERIOR.jpg"
 		},
 	  "name": "Casa de Salinas",
 	  "location": {
@@ -2384,8 +2408,8 @@
 	  "construction": "1617 - 1625",
 	  "architect": "Juan de Segarra",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SANTA_MARIA_DE_LA_PIEDAD.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SANTA_MARIA_DE_LA_PIEDAD_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de Santa María de la Piedad (Convento de las Mercedarias Descalzas)",
 	  "location": {
@@ -2408,8 +2432,8 @@
 	  "construction": "18th Century",
 	  "architect": "Unknown (Attributed to the circle of Ventura Rodríguez)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_PALACIO_SAN_JOSE.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_PALACIO_SAN_JOSE_INTERIOR.jpg"
 		},
 	  "name": "Casa Palacio San José",
 	  "location": {
@@ -2432,8 +2456,8 @@
 	  "construction": "1780",
 	  "architect": "Unknown (Original 18th Century) / Local Architects (Restoration)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_PALACIO_LA_CASA_BLANCA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_PALACIO_LA_CASA_BLANCA_INTERIOR.jpg"
 		},
 	  "name": "Casa Palacio La Casa Blanca",
 	  "location": {
@@ -2456,8 +2480,8 @@
 	  "construction": "1572",
 	  "architect": "Pedro de Díaz de Palacios / Juan de Simancas",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_MADRE_DE_DIOS_DE_LA_PIEDAD.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CONVENTO_DE_MADRE_DE_DIOS_DE_LA_PIEDAD_INTERIOR.jpg"
 		},
 	  "name": "Convento de Madre de Dios de la Piedad",
 	  "location": {
@@ -2480,8 +2504,8 @@
 	  "construction": "1252",
 	  "architect": "Unknown (Commissioned by Infante Fadrique)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_DE_DON_FADRIQUE.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_DE_DON_FADRIQUE_INTERIOR.jpg"
 		},
 	  "name": "Torre de Don Fadrique",
 	  "location": {
@@ -2504,8 +2528,8 @@
 	  "construction": "1913",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_SINGER.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_SINGER_INTERIOR.jpg"
 		},
 	  "name": "Edificio Singer (Nave Singer)",
 	  "location": {
@@ -2528,8 +2552,8 @@
 	  "construction": "17th Century (Renovated in 18th Century)",
 	  "architect": "Unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_LA_SANTA_CRUZ_DEL_RODEO.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_LA_SANTA_CRUZ_DEL_RODEO_INTERIOR.JPG"
 		},
 	  "name": "Capilla de la Santa Cruz del Rodeo y Nuestra Señora del Carmen",
 	  "location": {
@@ -2552,8 +2576,8 @@
 	  "construction": "1758 (Current building)",
 	  "architect": "Ignacio de las Casas (attributed)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_NICOLAS_DE_BARI_INTERIOR.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DE_SAN_NICOLAS_DE_BARI_INTERIOR.jpg"
 		},
 	  "name": "Iglesia de San Nicolás de Bari",
 	  "location": {
@@ -2577,7 +2601,7 @@
 	  "architect": "Aníbal González",
 	  "images": {
 			"exterior": "",
-		    "interior": ""
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CASA_PARA_LAUREANO_MONTOTO_INTERIOR.JPG"
 		},
 	  "name": "Casas para Laureano Montoto",
 	  "location": {
@@ -2600,8 +2624,8 @@
 	  "construction": "2005-2011",
 	  "architect": "Jürgen Mayer",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/SETAS_DE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/SETAS_DE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Setas de Sevilla (Metropol Parasol)",
 	  "location": {
@@ -2624,8 +2648,8 @@
 	  "construction": "1889-1901",
 	  "architect": "José Santos Silva",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUA_ESTACION_DE_CORDOBA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUA_ESTACION_DE_CORDOBA_INTERIOR.jpg"
 		},
 	  "name": "Antigua Estación de Córdoba (Plaza de Armas)",
 	  "location": {
@@ -2648,8 +2672,8 @@
 	  "construction": "2008-2015",
 	  "architect": "César Pelli",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_SEVILLA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_SEVILLA_INTERIOR.jpg"
 		},
 	  "name": "Torre Sevilla",
 	  "location": {
@@ -2672,8 +2696,8 @@
 	  "construction": "15th Century (Founded in 1400)",
 	  "architect": "Various",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/MONASTERIO_DE_SANTA_MARIA_DE_LAS_CUEVAS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/MONASTERIO_DE_SANTA_MARIA_DE_LAS_CUEVAS_INTERIOR.jpg"
 		},
 	  "name": "Monasterio de Santa María de las Cuevas (La Cartuja)",
 	  "location": {
@@ -2696,8 +2720,8 @@
 	  "construction": "1992",
 	  "architect": "Vázquez Consuegra",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_SIGLO_XV.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_SIGLO_XV_INTERIOR.jpg"
 		},
 	  "name": "Pabellón del Siglo XV",
 	  "location": {
@@ -2720,8 +2744,8 @@
 	  "construction": "15th - 16th Century",
 	  "architect": "Unknown",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SANTA_ANA.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/CAPILLA_DE_SANTA_ANA_INTERIOR.JPG"
 		},
 	  "name": "Capilla de Santa Ana",
 	  "location": {
@@ -2744,8 +2768,8 @@
 	  "construction": "1992",
 	  "architect": "Michel Pinseau",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MARRUECOS_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MARRUECOS_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Marruecos (Pabellón Hassan II)",
 	  "location": {
@@ -2768,8 +2792,8 @@
 	  "construction": "1992",
 	  "architect": "Santiago Calatrava",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_PABELLON_DE_KUWAIT.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANTIGUO_PABELLON_DE_KUWAIT_92.jpg"
 		},
 	  "name": "Antiguo Pabellón de Kuwait",
 	  "location": {
@@ -2792,8 +2816,8 @@
 	  "construction": "1992 (Installed for Expo '92)",
 	  "architect": "European Space Agency (ESA)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/COHETE_ARIANE_4.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/COHETE_ARIANE_4_INTERIOR.jpg"
 		},
 	  "name": "Cohete Ariane 4",
 	  "location": {
@@ -2816,8 +2840,8 @@
 	  "construction": "1992",
 	  "architect": "Martorell, Bohigas, Mackay (MBM) & Peter Rice",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_FUTURO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_FUTURO_INTERIOR.jpg"
 		},
 	  "name": "Pabellón del Futuro",
 	  "location": {
@@ -2840,8 +2864,8 @@
 	  "construction": "1992",
 	  "architect": "Martorell, Bohigas, Mackay (MBM) & Peter Rice",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_FUTURO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_FUTURO_INTERIOR.jpg"
 		},
 	  "name": "Pabellón del Futuro",
 	  "location": {
@@ -2864,8 +2888,8 @@
 	  "construction": "1992",
 	  "architect": "Martorell, Bohigas, Mackay (MBM) & Peter Rice",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_FUTURO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_FUTURO_INTERIOR.jpg"
 		},
 	  "name": "Pabellón del Futuro",
 	  "location": {
@@ -2888,8 +2912,8 @@
 	  "construction": "1992",
 	  "architect": "Bing Thom",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CANADA_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CANADA_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Canadá",
 	  "location": {
@@ -2912,8 +2936,8 @@
 	  "construction": "1992",
 	  "architect": "Gae Aulenti & Pierluigi Spadolini",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ITALIA_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ITALIA_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Italia",
 	  "location": {
@@ -2936,8 +2960,8 @@
 	  "construction": "1992",
 	  "architect": "Jean-Paul Viguier, Jean-François Jodry & François Seigneur",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_FRANCIA_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_FRANCIA_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Francia",
 	  "location": {
@@ -2960,8 +2984,8 @@
 	  "construction": "1992",
 	  "architect": "Monark Group (Juha Jääskeläinen, Juha Kaakko, Petri Rouhiainen, Matti Sanaksenaho & Jari Tirkkonen)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_FINLANDIA_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_FINLANDIA_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Finlandia (La Garganta del Infierno)",
 	  "location": {
@@ -2984,8 +3008,8 @@
 	  "construction": "1992",
 	  "architect": "Ian Athfield",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_NUEVA_ZELANDA_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_NUEVA_ZELANDA_92_INTERIOR.jpg"
 		},
 	  "name": "Antiguo Pabellón de Nueva Zelanda",
 	  "location": {
@@ -3008,8 +3032,8 @@
 	  "construction": "1992",
 	  "architect": "Julio Cano Lasso",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ESPA%C3%91A_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ESPA%C3%91A_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de España",
 	  "location": {
@@ -3032,8 +3056,8 @@
 	  "construction": "1992",
 	  "architect": "Jean-Marie Hennin & Nicolas Normier",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/AVENIDA_DE_EUROPA_92.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/AVENIDA_DE_EUROPA_92_INTERIOR.JPG"
 		},
 	  "name": "Avenida de Europa (Expo '92)",
 	  "location": {
@@ -3056,8 +3080,8 @@
 	  "construction": "1992",
 	  "architect": "Doruk Pamir",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_TURQUIA_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_TURQUIA_92_INTERIOR.jpg"
 		},
 	  "name": "Antiguo Pabellón de Turquía",
 	  "location": {
@@ -3080,8 +3104,8 @@
 	  "construction": "1992",
 	  "architect": "Juan Ruesga Navarro",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ANDALUCIA.png",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ANDALUCIA_INTERIOR.png"
 		},
 	  "name": "Pabellón de Andalucía",
 	  "location": {
@@ -3104,8 +3128,8 @@
 	  "construction": "1992",
 	  "architect": "Antonio Vázquez de Castro",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_EXPO_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_EXPO_92_INTERIOR.jpg"
 		},
 	  "name": "Edificio Expo (Antiguo World Trade Center)",
 	  "location": {
@@ -3128,8 +3152,8 @@
 	  "construction": "1992",
 	  "architect": "Pedro Ramírez Vázquez",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MEXICO_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MEXICO_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de México",
 	  "location": {
@@ -3152,8 +3176,8 @@
 	  "construction": "1992",
 	  "architect": "Germán del Sol & José Cruz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CHILE_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CHILE_92_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Chile",
 	  "location": {
@@ -3176,8 +3200,8 @@
 	  "construction": "1992",
 	  "architect": "Fabrice Notari",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MONACO_92.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_MONACO_92_INTERIOR.JPG"
 		},
 	  "name": "Pabellón de Mónaco",
 	  "location": {
@@ -3200,8 +3224,8 @@
 	  "construction": "1992",
 	  "architect": "Luis Fernando Gómez Stern",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_LA_NATURALEZA_92.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_LA_NATURALEZA_92_INTERIOR.JPG"
 		},
 	  "name": "Pabellón de la Naturaleza",
 	  "location": {
@@ -3224,8 +3248,8 @@
 	  "construction": "1991-1992",
 	  "architect": "Manuel Graça Dias & Egas José Vieira",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PORTUGAL_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PORTUGAL_92_INTERIOR.JPG"
 		},
 	  "name": "Pabellón de Portugal",
 	  "location": {
@@ -3248,8 +3272,8 @@
 	  "construction": "1992",
 	  "architect": "Hak-Sun Oh",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_COREA_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_COREA_92_INTERIOR.jpg.png"
 		},
 	  "name": "Pabellón de Corea (Corea del Sur)",
 	  "location": {
@@ -3272,8 +3296,8 @@
 	  "construction": "1992",
 	  "architect": "Segundo Cardona Colom, Luis Sierra y Alberto Ferrer (Sierra, Cardona & Ferrer)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PUERTO_RICO_92.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PUERTO_RICO_92_INTERIOR.JPG"
 		},
 	  "name": "Antiguo Pabellón de Puerto Rico",
 	  "location": {
@@ -3320,8 +3344,8 @@
 	  "construction": "1992",
 	  "architect": "Álvaro Navarro & Miguel M. de Castilla",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PLAZA_DE_AFRICA.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PLAZA_DE_AFRICA_INTERIOR.JPG"
 		},
 	  "name": "Plaza de África (Pabellón de África Subsahariana)",
 	  "location": {
@@ -3344,8 +3368,8 @@
 	  "construction": "1992",
 	  "architect": "Jesús Castañón Díaz, Ernesto Sánchez Zapata y Juan Luis Gómez Estern",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PLAZA_DE_AMERICA.JPG.png",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_PLAZA_DE_AMERICA_INTERIOR.JPG.png"
 		},
 	  "name": "Plaza de América (Expo '92)",
 	  "location": {
@@ -3368,8 +3392,8 @@
 	  "construction": "1992",
 	  "architect": "Juan Ruesga Navarro",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ANDALUCIA.png",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_ANDALUCIA_INTERIOR.png"
 		},
 	  "name": "Pabellón de Andalucía",
 	  "location": {
@@ -3392,8 +3416,8 @@
 	  "construction": "1992",
 	  "architect": "Miguel de Oriol e Ybarra",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABLLON_DE_CRUZCAMPO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_CRUZCAMPO_INTERIOR.png"
 		},
 	  "name": "Pabellón de Cruzcampo",
 	  "location": {
@@ -3416,8 +3440,8 @@
 	  "construction": "1992",
 	  "architect": "Pedro Ramírez Vázquez & Rafael de la Hoz",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_COMITE_OLIMPICO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DEL_COMITE_OLIMPICO_INTERIOR.jpg"
 		},
 	  "name": "Pabellón del Comité Olímpico Internacional (COI)",
 	  "location": {
@@ -3440,8 +3464,8 @@
 	  "construction": "1991-1992",
 	  "architect": "Guillermo Vázquez Consuegra",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_LA_NAVEGACION.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_LA_NAVEGACION_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de la Navegación",
 	  "location": {
@@ -3464,8 +3488,8 @@
 	  "construction": "1992",
 	  "architect": "Guillermo Vázquez Consuegra",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/SCHINDLER_TOWER.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/SCHINDLER_TOWER_INTERIOR.jpg"
 		},
 	  "name": "Schindler Tower",
 	  "location": {
@@ -3488,8 +3512,8 @@
 	  "construction": "1904 (original brewery), current facilities expanded mid-20th century",
 	  "architect": "Various (industrial complex, multiple phases)",
 	  "images": {
-		"exterior": "",
-		"interior": ""
+		"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/FABRICA_DE_CRUZCAMPO.jpg",
+		"interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/FABRICA_DE_CRUZCAMPO_INTERIOR.jpg"
 	  },
 	  "name": "Cruzcampo Brewery – Los Arcos",
 	  "location": {
@@ -3513,8 +3537,8 @@
 	  "construction": "1992",
 	  "architect": "Gilbert Barbany & Sebastián Mateu",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_LA_ONCE.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_LA_ONCE_INTERIOR.jpg"
 		},
 	  "name": "ONCE Pavilion",
 	  "location": {
@@ -3537,8 +3561,8 @@
 	  "construction": "1992",
 	  "architect": "Von Roll (System) / Various (Stations)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESTACION_MONORAIL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESTACION_MONORAIL_INTERIOR.jpg"
 		},
 	  "name": "Monorail Stations (Remains)",
 	  "location": {
@@ -3561,8 +3585,8 @@
 	  "construction": "1992",
 	  "architect": "Manuel Carrilero de la Torre",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RANK_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RANK_92.jpg"
 		},
 	  "name": "Rank Xerox Pavilion",
 	  "location": {
@@ -3585,8 +3609,8 @@
 	  "construction": "1992",
 	  "architect": "Luis Marín de Terán & Aurelio del Pozo",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_DE_LA_PRENSA.png",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/EDIFICIO_DE_LA_PRENSA_INTERIOR.png"
 		},
 	  "name": "Press Building (Edificio de la Prensa)",
 	  "location": {
@@ -3609,8 +3633,8 @@
 	  "construction": "1993 (Post-Expo completion)",
 	  "architect": "Francisco Javier Sáenz de Oiza",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_TRIANA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_TRIANA_INTERIOR.jpg"
 		},
 	  "name": "Torre Triana",
 	  "location": {
@@ -3633,8 +3657,8 @@
 	  "construction": "1999",
 	  "architect": "Antonio Cruz & Antonio Ortiz (Cruz y Ortiz Arquitectos)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESTADIO_LA_CARTUJA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESTADIO_LA_CARTUJA_INTERIOR.jpg"
 		},
 	  "name": "Estadio La Cartuja",
 	  "location": {
@@ -3657,8 +3681,8 @@
 	  "construction": "13th - 16th Century",
 	  "architect": "Unknown (Mudejar) / Hernán Ruiz II (Renaissance interventions)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DEL_REAL_HOSPITAL_DE_SAN_LAZARO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/IGLESIA_DEL_REAL_HOSPITAL_DE_SAN_LAZARO_INTERIOR.jpg"
 		},
 	  "name": "Iglesia del Real Hospital de San Lázaro",
 	  "location": {
@@ -3681,8 +3705,8 @@
 	  "construction": "1992",
 	  "architect": "Gerardo Ayala",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TEATRO_CENTRAL.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TEATRO_CENTRAL_INTERIOR.jpg"
 		},
 	  "name": "Teatro Central (antiguamente Teatro Central Hispano)",
 	  "location": {
@@ -3705,8 +3729,8 @@
 	  "construction": "1992",
 	  "architect": "Manuel Carrilero de la Torre",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RANK_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RANK_92.jpg"
 		},
 	  "name": "Rank Xerox Pavilion (Edificio INERCO)",
 	  "location": {
@@ -3729,8 +3753,8 @@
 	  "construction": "1992",
 	  "architect": "Mariano Bayón Álvarez",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RED_ELECTRICA_ESPA%C3%91A.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RED_ELECTRICA_ESPA%C3%91A_INTERIOR.jpg"
 		},
 	  "name": "Pabellón de Red Eléctrica de España",
 	  "location": {
@@ -3753,8 +3777,8 @@
 	  "construction": "1992",
 	  "architect": "Horacio Domínguez López",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RETEVISION.JPG",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/PABELLON_DE_RETEVISION_INTERIOR.JPG"
 		},
 	  "name": "Pabellón de Retevisión",
 	  "location": {
@@ -3777,8 +3801,8 @@
 	  "construction": "1992",
 	  "architect": "Javier Carvajal Ferrer",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOTEL_PRINCIPE_DE_ASTURIAS.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HOTEL_PRINCIPE_DE_ASTURIAS_INTERIOR.jpg.png"
 		},
 	  "name": "Hotel Príncipe de Asturias (Barceló Sevilla Renacimiento)",
 	  "location": {
@@ -3801,8 +3825,8 @@
 	  "construction": "1992",
 	  "architect": "Ignacio Aguilar García (Project Director)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANDALUCIA_DE_LOS_NI%C3%91OS_INTERIOR.jpg?raw=true",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ANDALUCIA_DE_LOS_NI%C3%91OS.jpg?raw=true"
 		},
 	  "name": "La Andalucía de los Niños",
 	  "location": {
@@ -3825,8 +3849,8 @@
 	  "construction": "1992",
 	  "architect": "Julio Cano Lasso (Surroundings) / Expo '92 Landscape Team",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/LAGO_DE_ESPA%C3%91A_92.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/LAGO_DE_ESPA%C3%91A_92_INTERIOR.jpg"
 		},
 	  "name": "Lago de España",
 	  "location": {
@@ -3849,8 +3873,8 @@
 	  "construction": "1992",
 	  "architect": "Confederación Hidrográfica del Guadalquivir / Expo '92 Engineers",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESCLUSA_DEL_CANAL_DE_LA_EXPO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/ESCLUSA_DEL_CANAL_DE_LA_EXPO_INTERIOR.png"
 		},
 	  "name": "Esclusa del Canal de la Expo (Canal de los Descubrimientos)",
 	  "location": {
@@ -3873,8 +3897,8 @@
 	  "construction": "1992",
 	  "architect": "Jorge Subirana & Silvia Decorde (Landscape Architects)",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/JARDINES_DEL_GUADALQUIVIR.png",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/JARDINES_DEL_GUADALQUIVIR_INTERIOR.png"
 		},
 	  "name": "Jardines del Guadalquivir",
 	  "location": {
@@ -3897,8 +3921,8 @@
 	  "construction": "1991",
 	  "architect": "Huss Park Attractions (Engineering) / Realizada por Bremen",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_BANESTO.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/TORRE_BANESTO_INTERIOR.jpg"
 		},
 	  "name": "Torre Banesto (Torre ABC / Pirulí)",
 	  "location": {
@@ -3921,8 +3945,8 @@
 	  "construction": "1988 (Inaugurated for Expo '92)",
 	  "architect": "Expo '92 Engineering Team",
 	  "images": {
-			"exterior": "",
-		    "interior": ""
+			"exterior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HELIPUERTO_DE_LA_CARTUJA.jpg",
+		    "interior": "https://github.com/gonzaloSR17/Api-Seville-Heritage/raw/main/images/HELIPUERTO_DE_LA_CARTUJA_INTERIOR.jpg"
 		},
 	  "name": "Helipuerto de la Cartuja (LEEX)",
 	  "location": {
