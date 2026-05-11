@@ -2,7 +2,6 @@
 	"data": [
 	{
 		"_id": 1,
-		"type": "Dwelling",
 		"construction": "1926",
 		"architect": "Aníbal González Álvarez-Ossorio",
 		"images": {
@@ -26,7 +25,6 @@
 	},
 	{
 		"_id": 2,
-		"type": "parish",
 		"construction": "1930",
 		"architect": "Vicente Traver",
 		"images": {
@@ -50,7 +48,6 @@
 	},
 	{
 		"_id": 3,
-		"type": "barracks",
 		"construction": "1927",
 		"architect": "José Perez Reina",
 		"images": {
@@ -74,7 +71,6 @@
 	},
 	{
 		"_id": 4,
-		"type": "Hospital / Barracks",
 		"construction": "1937",
 		"architect": "José Pérez Reina",
 		"images": {
@@ -98,7 +94,6 @@
 	},
 	{
 		"_id": 5,
-		"type": "barracks",
 		"construction": "1928",
 		"architect": "José Pérez Reina",
 		"images": {
@@ -122,7 +117,6 @@
 	},
 	{
 		"_id": 6,
-		"type": "private aristocratic residence,",
 		"construction": "1894",
 		"architect": "José Solares",
 		"images": {
@@ -146,7 +140,6 @@
 	},
 	{
 		"_id": 7,
-		"type": "Exhibition / Cultural building",
 		"construction": "1929",
 		"architect": "Manuel María Amábilis Domínguez",
 		"images": {
@@ -170,7 +163,6 @@
 	},
 	{
 		"_id": 8,
-		"type": "Exhibition / Cultural building",
 		"construction": "1929",
 		"architect": "José Granados de la Vega",
 		"images": {
@@ -194,7 +186,6 @@
 	},
 	{
 		"_id": 9,
-		"type": "Exhibition / Cultural building",
 		"construction": "1929",
 		"architect": "José Gutiérrez Lescura & Mariano Bertuchi",
 		"images": {
@@ -218,7 +209,6 @@
 	},
 	{
 		"_id": 10,
-		"type": "Exhibition / Cultural building",
 		"construction": "1929",
 		"architect": "Pedro Paulo Bernardes Vastos",
 		"images": {
@@ -242,7 +232,6 @@
 	},
 	{
 	  "_id": 11,
-	  "type": "Exhibition / Cultural building",
 	  "construction": "1916",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
@@ -267,7 +256,6 @@
 	},
 	{
 	"_id": 12,
-	"type": "Exhibition / Cultural building",
 	"construction": "1929",
 	"architect": "Aurelio Gómez Millán",
 	"images": {
@@ -291,7 +279,6 @@
 	},
 	{
 	"_id": 13,
-	"type": "Exhibition / Cultural building",
 	"construction": "1914",
 	"architect": "Aníbal González Álvarez-Ossorio",
 	"images": {
@@ -315,7 +302,6 @@
 	},
 	{
 	"_id": 14,
-	"type": "Museum / Cultural building",
 	"construction": "1919",
 	"architect": "Aníbal González Álvarez-Ossorio",
 	"images": {
@@ -339,7 +325,6 @@
 	},
 	{
 	"_id": 15,
-	"type": "Museum / Cultural building",
 	"construction": "1929",
 	"architect": "Martín San Noel",
 	"images": {
@@ -363,7 +348,6 @@
 	},
 	{
 	"_id": 16,
-	"type": "Museum / Cultural building",
 	"construction": "1929",
 	"architect": "unknown",
 	"images": {
@@ -387,7 +371,6 @@
 	},
 	{
 	"_id": 17,
-	"type": "Monumental / Public building",
 	"construction": "1929",
 	"architect": "Aníbal González",
 	"images": {
@@ -411,7 +394,6 @@
 	},
 	{
 	"_id": 18,
-	"type": "Cultural / Historic building",
 	"construction": "1893",
 	"architect": "José Hernández",
 	"images": {
@@ -435,7 +417,6 @@
 	},
 	{
 	"_id": 19,
-	"type": "Exhibition / Cultural building",
 	"construction": "1929",
 	"architect": "William Templeton Johnson",
 	"images": {
@@ -458,8 +439,30 @@
 	"description": "The United States Pavilion, designed by architect William Templeton Johnson for the 1929 Ibero-American Exposition in Seville, is a notable example of American Colonial Revival, with influences from Neoclassicism and Spanish colonial architecture. Its design features symmetrical façades, classical columns, and elegant pediments, conveying sobriety and harmony. The pavilion aimed to project American historical tradition through an architectural language that blends colonial heritage with a modern interpretation, harmonizing with the Hispanic context of the exposition."
 	},
 	{
+        "_id": 20,
+        "construction": "1546",
+        "architect": "Martín de Gainza, Hernán Ruiz II, Asensio de Maeda",
+        "images": {
+            "exterior": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Parlamento_de_Andaluc%C3%ADa.jpg",
+            "interior": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Hemiciclo_Parlamento_Andalucia.jpg"
+        },
+        "name": "Parlamento de Andalucía (Hospital de las Cinco Llagas)",
+        "location": {
+            "lat": 37.4050,
+            "lng": -5.9883
+        },
+        "category": "Public Services & Facilities",
+        "style": "Renaissance / Mannerist",
+        "district": "Distrito Macarena",
+        "address": "C. San Juan de Ribera, s/n, 41009 Sevilla",
+        "link": {
+            "maps": "https://maps.app.goo.gl/PQmMshkbyG8iea4E6",
+            "website": "https://www.parlamentodeandalucia.es/"
+        },
+        "description": "The Parliament of Andalusia occupies the former Hospital de las Cinco Llagas, a 16th-century Renaissance building. Originally projected by Martín de Gainza and continued by Hernán Ruiz II, it stands out for its Latin cross plan and its magnificent Mannerist facade designed by Asensio de Maeda. After years of abandonment, it was rehabilitated in the late 20th century to become the seat of the regional parliamentary institution, combining its rich architectural history with modern administrative needs."
+    },
+	{
 	"_id": 21,
-	"type": "Exhibition / Cultural building",
 	"construction": "1929",
 	"architect": "Antonio Mauricio Cravotto Schiavon",
 	"images": {
@@ -483,7 +486,6 @@
 	},
 	{
 	  "_id": 22,
-	  "type": "Exhibition / Cultural building",
 	  "construction": "1929",
 	  "architect": "Juan Martínez Gutiérrez",
 	  "images": {
@@ -507,7 +509,6 @@
 	},
 	{
 	  "_id": 23,
-	  "type": "Exhibition / Cultural building",
 	  "construction": "1929",
 	  "architect": "Manuel Piqueras Cotolí",
 	  "images": {
@@ -531,7 +532,6 @@
 	},
 	{
 	  "_id": 24,
-	  "type": "Cultural / Leisure building",
 	  "construction": "1929",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
@@ -555,7 +555,6 @@
 	},
 	{
 	  "_id": 25,
-	  "type": "Exhibition / Cultural building",
 	  "construction": "1929",
 	  "architect": "unknown",
 	  "images": {
@@ -577,7 +576,6 @@
 	},
 	{
 	  "_id": 26,
-	  "type": "Exhibition / Cultural building",
 	  "construction": "1929",
 	  "architect": "Carlos y Guilherme Rebelo de Andrade",
 	  "images": {
@@ -601,7 +599,6 @@
 	},
 	{
 	  "_id": 27,
-	  "type": "Industrial / Historic building",
 	  "construction": "1728",
 	  "architect": "Sebastián Van der Borcht",
 	  "images": {
@@ -625,7 +622,6 @@
 	},
 	{
 	  "_id": 28,
-	  "type": "Palace / Historic building",
 	  "construction": "1682",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
@@ -649,7 +645,6 @@
 	},
 	{
 	  "_id": 29,
-	  "type": "Military / Defensive building",
 	  "construction": "1220",
 	  "architect": "unknown",
 	  "images": {
@@ -673,7 +668,6 @@
 	},
 	{
 	  "_id": 30,
-	  "type": "Hotel / Historic building",
 	  "construction": "1929",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
@@ -697,7 +691,6 @@
 	},
 	{
 	  "_id": 31,
-	  "type": "Royal Palace / Historic building",
 	  "construction": "913",
 	  "architect": "unknown",
 	  "images": {
@@ -721,7 +714,6 @@
 	},
 	{
 	  "_id": 32,
-	  "type": "Religious / Historic building",
 	  "construction": "1674",
 	  "architect": "unknown",
 	  "images": {
@@ -745,7 +737,6 @@
 	},
 	{
 	  "_id": 33,
-	  "type": "Religious / Historic building",
 	  "construction": "1674",
 	  "architect": "Juan de Herrera el Mozo (interior contributions by Valdés Leal & Murillo)",
 	  "images": {
@@ -770,7 +761,6 @@
 	},
 	{
 	  "_id": 34,
-	  "type": "Historic / Administrative building",
 	  "construction": "1584",
 	  "architect": "Juan de Herrera",
 	  "images": {
@@ -794,7 +784,6 @@
 	},
 	{
 	  "_id": 35,
-	  "type": "Cultural / Monumental building",
 	  "construction": "1761",
 	  "architect": "Joaquín de Arana",
 	  "images": {
@@ -818,7 +807,6 @@
 	},
 	{
 	  "_id": 36,
-	  "type": "Religious / Monumental building",
 	  "construction": "1401",
 	  "architect": "Alonso Martínez & various",
 	  "images": {
@@ -842,7 +830,6 @@
 	},
 	{
 	  "_id": 37,
-	  "type": "Monumental / Historic building",
 	  "construction": "1184",
 	  "architect": "Ahmad Ben Baso (original minaret)",
 	  "images": {
@@ -866,7 +853,6 @@
 	},
 	{
 	  "_id": 38,
-	  "type": "Palace / Historic building",
 	  "construction": "1572",
 	  "architect": "Varios (renacentista y barroco posteriores)",
 	  "images": {
@@ -890,7 +876,6 @@
 	},
 	{
 	  "_id": 39,
-	  "type": "Palace / Historic building",
 	  "construction": "1483",
 	  "architect": "unknown",
 	  "images": {
@@ -914,7 +899,6 @@
 	},
 	{
 	  "_id": 40,
-	  "type": "Private Residence / Historic building",
 	  "construction": "1910",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
@@ -938,7 +922,6 @@
 	},
 	{
 	  "_id": 41,
-	  "type": "Private Residence / Historic building",
 	  "construction": "18th century",
 	  "architect": "unknown",
 	  "images": {
@@ -962,7 +945,6 @@
 	},
 	{
 	  "_id": 42,
-	  "type": "Palace / Historic building",
 	  "construction": "1483",
 	  "architect": "Enrique Egas / Fadrique Enríquez de Rivera",
 	  "images": {
@@ -986,7 +968,6 @@
 	},
 	{
 	  "_id": 43,
-	  "type": "Religious / Historic building",
 	  "construction": "1356",
 	  "architect": "unknown",
 	  "images": {
@@ -1010,7 +991,6 @@
 	},
 	{
 	  "_id": 44,
-	  "type": "Religious / Historic building",
 	  "construction": "1266",
 	  "architect": "unknown",
 	  "images": {
@@ -1034,7 +1014,6 @@
 	},
 	{
 	  "_id": 45,
-	  "type": "Religious / Historic building",
 	  "construction": "1270",
 	  "architect": "unknown",
 	  "images": {
@@ -1058,7 +1037,6 @@
 	},
 	{
 	  "_id": 46,
-	  "type": "Religious / Historic building",
 	  "construction": "1356",
 	  "architect": "unknown",
 	  "images": {
@@ -1082,7 +1060,6 @@
 	},
 	{
 	  "_id": 47,
-	  "type": "Religious / Historic building",
 	  "construction": "1265",
 	  "architect": "unknown",
 	  "images": {
@@ -1106,7 +1083,6 @@
 	},
 	{
 	  "_id": 48,
-	  "type": "Religious / Historic building",
 	  "construction": "1249",
 	  "architect": "unknown",
 	  "images": {
@@ -1131,7 +1107,6 @@
 	
 	{
 	  "_id": 49,
-	  "type": "Religious / Historic building",
 	  "construction": "1300",
 	  "architect": "unknown",
 	  "images": {
@@ -1155,7 +1130,6 @@
 	},
 	{
 	  "_id": 50,
-	  "type": "Religious / Historic building",
 	  "construction": "1949",
 	  "architect": "Aurelio Gómez Millán",
 	  "images": {
@@ -1179,7 +1153,6 @@
 	},
 	{
 	  "_id": 51,
-	  "type": "Religious / Historic building",
 	  "construction": "1731",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
@@ -1203,7 +1176,6 @@
 	},	
 	{
 	  "_id": 52,
-	  "type": "Religious / Historic building",
 	  "construction": "1709",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
@@ -1227,7 +1199,6 @@
 	},
 	{
 	  "_id": 53,
-	  "type": "Religious / Historic building",
 	  "construction": "1665",
 	  "architect": "Juan González",
 	  "images": {
@@ -1251,7 +1222,6 @@
 	},
 	{
 	  "_id": 54,
-	  "type": "Religious / Historic building",
 	  "construction": "1300s",
 	  "architect": "unknown",
 	  "images": {
@@ -1275,7 +1245,6 @@
 	},
 	{
 	  "_id": 55,
-	  "type": "Religious / Historic building",
 	  "construction": "1965",
 	  "architect": "Alberto Balbontín Orta & Antonio Delgado Roig",
 	  "images": {
@@ -1299,7 +1268,6 @@
 	},
 	{
 	  "_id": 56,
-	  "type": "Religious / Historic building",
 	  "construction": "1674",
 	  "architect": "Leonardo de Figueroa",
 	  "images": {
@@ -1323,7 +1291,6 @@
 	},
 	{
 	  "_id": 57,
-	  "type": "Religious / Historic building",
 	  "construction": "1794–1841",
 	  "architect": "Julián Barnecilla / José Echamorro",
 	  "images": {
@@ -1347,7 +1314,6 @@
 	},
 	{
 	  "_id": 58,
-	  "type": "Religious / Historic building",
 	  "construction": "1475–1489",
 	  "architect": "unknown",
 	  "images": {
@@ -1371,7 +1337,6 @@
 	},
 	{
 	  "_id": 59,
-	  "type": "Religious / Historic building",
 	  "construction": "1295 (foundation) / late 1500s (church)",
 	  "architect": "unknown",
 	  "images": {
@@ -1395,7 +1360,6 @@
 	},
 	{
 	  "_id": 60,
-	  "type": "Religious / Historic building",
 	  "construction": "1248 (foundation) / mainly 1500s–1600s",
 	  "architect": "unknown",
 	  "images": {
@@ -1419,7 +1383,6 @@
 	},
 	{
 	  "_id": 61,
-	  "type": "Religious / Historic building",
 	  "construction": "1740s–1775",
 	  "architect": "Matías de Figueroa",
 	  "images": {
@@ -1443,7 +1406,6 @@
 	},
 	{
 	  "_id": 62,
-	  "type": "Historic / Administrative building",
 	  "construction": "1564",
 	  "architect": "Diego de Riaño (original design), Juan Sánchez, Hernán Ruiz II",
 	  "images": {
@@ -1467,7 +1429,6 @@
 	},
 	{
 	  "_id": 63,
-	  "type": "Office / Commercial Historic building",
 	  "construction": "1914–1922",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
@@ -1491,7 +1452,6 @@
 	},
 	{
 	  "_id": 64,
-	  "type": "Institutional / Financial Historic building",
 	  "construction": "1925–1928",
 	  "architect": "Antonio Palacios Ramilo",
 	  "images": {
@@ -1515,7 +1475,6 @@
 	},
 	{
 	  "_id": 65,
-	  "type": "Religious / Historic building",
 	  "construction": "1699–1766",
 	  "architect": "Pedro Romero / Esteban Paredes",
 	  "images": {
@@ -1539,7 +1498,6 @@
 	},
 	{
 	  "_id": 65,
-	  "type": "Institutional / Telecommunications Historic building",
 	  "construction": "1926–1929",
 	  "architect": "Juan Talavera y Heredia",
 	  "images": {
@@ -1563,7 +1521,6 @@
 	},
 	{
 	  "_id": 66,
-	  "type": "Residential / Historic building",
 	  "construction": "1920s",
 	  "architect": "Martín Nogueira",
 	  "images": {
@@ -1588,7 +1545,6 @@
 
 	{
 	  "_id": 67,
-	  "type": "Office / Commercial Historic building",
 	  "construction": "1926–1929",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
@@ -1612,7 +1568,6 @@
 	},
 	{
 	  "_id": 68,
-	  "type": "Institutional / Communications Historic building",
 	  "construction": "1927–1930",
 	  "architect": "Joaquín Otamendi y Machimbarrena",
 	  "images": {
@@ -1636,7 +1591,6 @@
 	},
 	{
 	  "_id": 69,
-	  "type": "Cultural / Entertainment Historic building",
 	  "construction": "1929–1931",
 	  "architect": "José y Aurelio Gómez Millán",
 	  "images": {
@@ -1660,7 +1614,6 @@
 	},
 	{
 	  "_id": 70,
-	  "type": "Office / Commercial Historic building",
 	  "construction": "1918–1922",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
@@ -1684,7 +1637,6 @@
 	},
 	{
 	  "_id": 71,
-	  "type": "Residential / Historic building",
 	  "construction": "1925",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
@@ -1708,7 +1660,6 @@
 	},
 	{
 	  "_id": 72,
-	  "type": "Residential / Historic building",
 	  "construction": "1910",
 	  "architect": " Aníbal González Álvarez-Ossorio ",
 	  "images": {
@@ -1732,7 +1683,6 @@
 	},
 	{
 	  "_id": 73,
-	  "type": "Religious / Historic building",
 	  "construction": "1928",
 	  "architect": "Vicente Traver",
 	  "images": {
@@ -1756,7 +1706,6 @@
 	},
 	{
 	  "_id": 74,
-	  "type": "Sports / Historic landmark",
 	  "construction": "1958",
 	  "architect": "Manuel Muñoz Monasterio",
 	  "images": {
@@ -1780,7 +1729,6 @@
 	},
 	{
 	  "_id": 75,
-	  "type": "Hospital / Religious building",
 	  "construction": "1943 - 1951",
 	  "architect": "Manuel Galnares Sagastizábal",
 	  "images": {
@@ -1804,7 +1752,6 @@
 	},
 	{
 	  "_id": 76,
-	  "type": "Industrial / Historic building",
 	  "construction": "1910 - 1916",
 	  "architect": "José Sáez y López",
 	  "images": {
@@ -1828,7 +1775,6 @@
 	},
 	{
 	  "_id": 77,
-	  "type": "Cultural / Civic Center",
 	  "construction": "1171 (Original) / 1892 (Current Palace)",
 	  "architect": "Ahmad Ben Baso (Almohad) / Unknown (19th century pavilion)",
 	  "images": {
@@ -1852,7 +1798,6 @@
 	},
 	{
 	  "_id": 78,
-	  "type": "Religious / Unfinished Monument",
 	  "construction": "1928 (Abandoned 1930)",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
@@ -1876,7 +1821,6 @@
 	},
 	{
 	  "_id": 79,
-	  "type": "Religious / Historic building",
 	  "construction": "1612",
 	  "architect": "Juan de Oviedo y de la Bandera",
 	  "images": {
@@ -1900,7 +1844,6 @@
 	},
 	{
 	  "_id": 81,
-	  "type": "Cultural / Civic Center",
 	  "construction": "1861",
 	  "architect": "Joaquín de la Concha Alcalde",
 	  "images": {
@@ -1924,7 +1867,6 @@
 	},
 	{
 	  "_id": 80,
-	  "type": "Religious / Historic building",
 	  "construction": "1682",
 	  "architect": "Unknown (Promoted by Marta de Jesús Carrillo and Beatriz Jerónima de la Concepción)",
 	  "images": {
@@ -1948,7 +1890,6 @@
 	},
 	{
 	  "_id": 82,
-	  "type": "Palace / Historic building",
 	  "construction": "17th Century (Late)",
 	  "architect": "Pedro Romero (attributed)",
 	  "images": {
@@ -1972,7 +1913,6 @@
 	},
 	{
 	  "_id": 83,
-	  "type": "Cultural / Cinema and Theater",
 	  "construction": "1873",
 	  "architect": "Juan Talavera de la Vega",
 	  "images": {
@@ -1996,7 +1936,6 @@
 	},
 	{
 	  "_id": 84,
-	  "type": "Religious / Convent",
 	  "construction": "1701 - 1725",
 	  "architect": "Diego Antonio Díaz",
 	  "images": {
@@ -2020,7 +1959,6 @@
 	},
 	{
 	  "_id": 85,
-	  "type": "Archaeological Site / Almohad Baths",
 	  "construction": "12th Century (Almohad Period)",
 	  "architect": "Unknown (Almohad builders)",
 	  "images": {
@@ -2044,7 +1982,6 @@
 	},
 	{
 	  "_id": 86,
-	  "type": "Historic Residence / Cultural Interest",
 	  "construction": "1870",
 	  "architect": "Unknown",
 	  "images": {
@@ -2068,7 +2005,6 @@
 	},
 	{
 	  "_id": 87,
-	  "type": "Religious / Historic building",
 	  "construction": "1300",
 	  "architect": "Unknown (Original) / Diego Antonio Díaz (Baroque chapels)",
 	  "images": {
@@ -2092,7 +2028,6 @@
 	},
 	{
 	  "_id": 88,
-	  "type": "Museum / Historic Building",
 	  "construction": "1612",
 	  "architect": "Juan de Oviedo y de la Bandera",
 	  "images": {
@@ -2116,7 +2051,6 @@
 	},
 	{
 	  "_id": 89,
-	  "type": "Religious / Historic building",
 	  "construction": "1758 (Current building)",
 	  "architect": "Unknown (Reconstruction)",
 	  "images": {
@@ -2140,7 +2074,6 @@
 	},
 	{
 	  "_id": 90,
-	  "type": "Religious / Historic building",
 	  "construction": "1730 (Current structure)",
 	  "architect": "Diego Antonio Díaz",
 	  "images": {
@@ -2164,7 +2097,6 @@
 	},
 	{
 	  "_id": 91,
-	  "type": "Palace / Historic building",
 	  "construction": "1907",
 	  "architect": "Aníbal González Álvarez-Ossorio",
 	  "images": {
@@ -2188,7 +2120,6 @@
 	},
 	{
 	  "_id": 92,
-	  "type": "Religious / Convent",
 	  "construction": "1608",
 	  "architect": "Juan de Oviedo y de la Bandera",
 	  "images": {
@@ -2212,7 +2143,6 @@
 	},
 	{
 	  "_id": 93,
-	  "type": "Religious / Chapel",
 	  "construction": "1924 (Reconstruction)",
 	  "architect": "Unknown",
 	  "images": {
@@ -2236,7 +2166,6 @@
 	},
 	{
 	  "_id": 94,
-	  "type": "Religious / Chapel",
 	  "construction": "1693",
 	  "architect": "Bernardo de Bustamante (Original) / Rafael de la Hoz (Renovation)",
 	  "images": {
@@ -2260,7 +2189,6 @@
 	},
 	{
 	  "_id": 95,
-	  "type": "Historic Building / Medieval Shipyards",
 	  "construction": "1252",
 	  "architect": "Unknown (Commissioned by Alfonso X the Wise)",
 	  "images": {
@@ -2284,7 +2212,6 @@
 	},
 	{
 	  "_id": 96,
-	  "type": "Public Square / Residential & Commercial Building",
 	  "construction": "1945 - 1950",
 	  "architect": "Joaquín Barquín y Barrón",
 	  "images": {
@@ -2308,7 +2235,6 @@
 	},
 	{
 	  "_id": 97,
-	  "type": "Public Administration / Historic Building",
 	  "construction": "18th Century (Reformed in 1940s)",
 	  "architect": "Sebastián Van der Borcht (Original) / Juan Talavera y Heredia (Reforms)",
 	  "images": {
@@ -2332,7 +2258,6 @@
 	},
 	{
 	  "_id": 98,
-	  "type": "Defensive Tower / Almohad Wall",
 	  "construction": "1221",
 	  "architect": "Unknown (Almohad builders)",
 	  "images": {
@@ -2356,7 +2281,6 @@
 	},
 	{
 	  "_id": 99,
-	  "type": "Religious / Parish Church",
 	  "construction": "1665 - 1728",
 	  "architect": "José Tirado",
 	  "images": {
@@ -2380,7 +2304,6 @@
 	},
 	{
 	  "_id": 100,
-	  "type": "Palace / Historic House",
 	  "construction": "1577",
 	  "architect": "Unknown (Original 16th Century) / Manuel de la Lastra (20th Century Restoration)",
 	  "images": {
@@ -2404,7 +2327,6 @@
 	},
 	{
 	  "_id": 101,
-	  "type": "Religious / Convent Church",
 	  "construction": "1617 - 1625",
 	  "architect": "Juan de Segarra",
 	  "images": {
@@ -2428,7 +2350,6 @@
 	},
 	{
 	  "_id": 102,
-	  "type": "Palace / Luxury Accommodation",
 	  "construction": "18th Century",
 	  "architect": "Unknown (Attributed to the circle of Ventura Rodríguez)",
 	  "images": {
@@ -2452,7 +2373,6 @@
 	},
 	{
 	  "_id": 103,
-	  "type": "Palace / Luxury Accommodation",
 	  "construction": "1780",
 	  "architect": "Unknown (Original 18th Century) / Local Architects (Restoration)",
 	  "images": {
@@ -2476,7 +2396,6 @@
 	},
 	{
 	  "_id": 104,
-	  "type": "Religious / Convent",
 	  "construction": "1572",
 	  "architect": "Pedro de Díaz de Palacios / Juan de Simancas",
 	  "images": {
@@ -2500,7 +2419,6 @@
 	},
 	{
 	  "_id": 105,
-	  "type": "Defensive Tower / Gothic Residence",
 	  "construction": "1252",
 	  "architect": "Unknown (Commissioned by Infante Fadrique)",
 	  "images": {
@@ -2524,7 +2442,6 @@
 	},
 	{
 	  "_id": 106,
-	  "type": "Industrial Architecture / Former Workshop",
 	  "construction": "1913",
 	  "architect": "José Espiau y Muñoz",
 	  "images": {
@@ -2548,7 +2465,6 @@
 	},
 	{
 	  "_id": 107,
-	  "type": "Religious / Chapel",
 	  "construction": "17th Century (Renovated in 18th Century)",
 	  "architect": "Unknown",
 	  "images": {
@@ -2572,7 +2488,6 @@
 	},
 	{
 	  "_id": 108,
-	  "type": "Religious / Parish Church",
 	  "construction": "1758 (Current building)",
 	  "architect": "Ignacio de las Casas (attributed)",
 	  "images": {
@@ -2596,7 +2511,6 @@
 	},
 	{
 	  "_id": 109,
-	  "type": "Residential / Modernist Houses",
 	  "construction": "1906",
 	  "architect": "Aníbal González",
 	  "images": {
@@ -2620,7 +2534,6 @@
 	},
 	{
 	  "_id": 110,
-	  "type": "Modern Monument / Viewpoint",
 	  "construction": "2005-2011",
 	  "architect": "Jürgen Mayer",
 	  "images": {
@@ -2644,7 +2557,6 @@
 	},
 	{
 	  "_id": 111,
-	  "type": "Former Railway Station / Shopping Mall",
 	  "construction": "1889-1901",
 	  "architect": "José Santos Silva",
 	  "images": {
@@ -2668,7 +2580,6 @@
 	},
 	{
 	  "_id": 112,
-	  "type": "Skyscraper / Office Building & Hotel",
 	  "construction": "2008-2015",
 	  "architect": "César Pelli",
 	  "images": {
@@ -2692,7 +2603,6 @@
 	},
 		{
 	  "_id": 113,
-	  "type": "Former Monastery / Contemporary Art Museum",
 	  "construction": "15th Century (Founded in 1400)",
 	  "architect": "Various",
 	  "images": {
@@ -2716,7 +2626,6 @@
 	},
 	{
 	  "_id": 114,
-	  "type": "Exhibition Pavilion / Cultural Space",
 	  "construction": "1992",
 	  "architect": "Vázquez Consuegra",
 	  "images": {
@@ -2740,7 +2649,6 @@
 	},
 	{
 	  "_id": 115,
-	  "type": "Religious / Chapel",
 	  "construction": "15th - 16th Century",
 	  "architect": "Unknown",
 	  "images": {
@@ -2764,7 +2672,6 @@
 	},
 	{
 	  "_id": 116,
-	  "type": "Exhibition Pavilion / Cultural Foundation",
 	  "construction": "1992",
 	  "architect": "Michel Pinseau",
 	  "images": {
@@ -2788,7 +2695,6 @@
 	},
 	{
 	  "_id": 117,
-	  "type": "Exhibition Pavilion / Modern Landmark",
 	  "construction": "1992",
 	  "architect": "Santiago Calatrava",
 	  "images": {
@@ -2812,7 +2718,6 @@
 	},
 	{
 	  "_id": 118,
-	  "type": "Modern Monument / Aerospace Landmark",
 	  "construction": "1992 (Installed for Expo '92)",
 	  "architect": "European Space Agency (ESA)",
 	  "images": {
@@ -2836,7 +2741,6 @@
 	},
 	{
 	  "_id": 119,
-	  "type": "Exhibition Pavilion / Research Center",
 	  "construction": "1992",
 	  "architect": "Martorell, Bohigas, Mackay (MBM) & Peter Rice",
 	  "images": {
@@ -2860,7 +2764,6 @@
 	},
 	{
 	  "_id": 120,
-	  "type": "Exhibition Pavilion / Research Center",
 	  "construction": "1992",
 	  "architect": "Martorell, Bohigas, Mackay (MBM) & Peter Rice",
 	  "images": {
@@ -2884,7 +2787,6 @@
 	},
 	{
 	  "_id": 121,
-	  "type": "Exhibition Pavilion / Research Center",
 	  "construction": "1992",
 	  "architect": "Martorell, Bohigas, Mackay (MBM) & Peter Rice",
 	  "images": {
@@ -2908,7 +2810,6 @@
 	},
 	{
 	  "_id": 122,
-	  "type": "Exhibition Pavilion / Business School",
 	  "construction": "1992",
 	  "architect": "Bing Thom",
 	  "images": {
@@ -2932,7 +2833,6 @@
 	},
 	{
 	  "_id": 123,
-	  "type": "Exhibition Pavilion / Technology Center",
 	  "construction": "1992",
 	  "architect": "Gae Aulenti & Pierluigi Spadolini",
 	  "images": {
@@ -2956,7 +2856,6 @@
 	},
 	{
 	  "_id": 124,
-	  "type": "Exhibition Pavilion / Business Incubator",
 	  "construction": "1992",
 	  "architect": "Jean-Paul Viguier, Jean-François Jodry & François Seigneur",
 	  "images": {
@@ -2980,7 +2879,6 @@
 	},
 	{
 	  "_id": 125,
-	  "type": "Exhibition Pavilion / Architectural Monument",
 	  "construction": "1992",
 	  "architect": "Monark Group (Juha Jääskeläinen, Juha Kaakko, Petri Rouhiainen, Matti Sanaksenaho & Jari Tirkkonen)",
 	  "images": {
@@ -3004,7 +2902,6 @@
 	},
 	{
 	  "_id": 126,
-	  "type": "Exhibition Pavilion / Corporate Offices",
 	  "construction": "1992",
 	  "architect": "Ian Athfield",
 	  "images": {
@@ -3028,7 +2925,6 @@
 	},
 	{
 	  "_id": 127,
-	  "type": "Exhibition Pavilion / Institutional Building",
 	  "construction": "1992",
 	  "architect": "Julio Cano Lasso",
 	  "images": {
@@ -3052,7 +2948,6 @@
 	},
 	{
 	  "_id": 130,
-	  "type": "Urban Space / Main Avenue",
 	  "construction": "1992",
 	  "architect": "Jean-Marie Hennin & Nicolas Normier",
 	  "images": {
@@ -3076,7 +2971,6 @@
 	},
 	{
 	  "_id": 131,
-	  "type": "Exhibition Pavilion / Corporate Offices",
 	  "construction": "1992",
 	  "architect": "Doruk Pamir",
 	  "images": {
@@ -3100,7 +2994,6 @@
 	},
 	{
 	  "_id": 132,
-	  "type": "Exhibition Pavilion / Institutional Headquarters",
 	  "construction": "1992",
 	  "architect": "Juan Ruesga Navarro",
 	  "images": {
@@ -3124,7 +3017,6 @@
 	},
 	{
 	  "_id": 133,
-	  "type": "Business Center / Office Building",
 	  "construction": "1992",
 	  "architect": "Antonio Vázquez de Castro",
 	  "images": {
@@ -3148,7 +3040,6 @@
 	},
 	{
 	  "_id": 134,
-	  "type": "Exhibition Pavilion / Institutional Building",
 	  "construction": "1992",
 	  "architect": "Pedro Ramírez Vázquez",
 	  "images": {
@@ -3172,7 +3063,6 @@
 	},
 	{
 	  "_id": 135,
-	  "type": "Exhibition Pavilion / Corporate Offices",
 	  "construction": "1992",
 	  "architect": "Germán del Sol & José Cruz",
 	  "images": {
@@ -3196,7 +3086,6 @@
 	},
 	{
 	  "_id": 136,
-	  "type": "Exhibition Pavilion / Research Center",
 	  "construction": "1992",
 	  "architect": "Fabrice Notari",
 	  "images": {
@@ -3220,7 +3109,6 @@
 	},
 	{
 	  "_id": 137,
-	  "type": "Thematic Pavilion / Consulate & Environmental Center",
 	  "construction": "1992",
 	  "architect": "Luis Fernando Gómez Stern",
 	  "images": {
@@ -3244,7 +3132,6 @@
 	},
 	{
 	  "_id": 138,
-	  "type": "Exhibition Pavilion / Institutional Headquarters",
 	  "construction": "1991-1992",
 	  "architect": "Manuel Graça Dias & Egas José Vieira",
 	  "images": {
@@ -3268,7 +3155,6 @@
 	},
 	{
 	  "_id": 139,
-	  "type": "Exhibition Pavilion / Aerospace Technology Center",
 	  "construction": "1992",
 	  "architect": "Hak-Sun Oh",
 	  "images": {
@@ -3292,7 +3178,6 @@
 	},
 	{
 	  "_id": 140,
-	  "type": "Exhibition Pavilion / Institutional Headquarters",
 	  "construction": "1992",
 	  "architect": "Segundo Cardona Colom, Luis Sierra y Alberto Ferrer (Sierra, Cardona & Ferrer)",
 	  "images": {
@@ -3316,7 +3201,6 @@
 	},
 	{
 	  "_id": 141,
-	  "type": "Exhibition Pavilion / Corporate Offices",
 	  "construction": "1992",
 	  "architect": "José Ramón Moreno & Orestes del Castillo",
 	  "images": {
@@ -3340,7 +3224,6 @@
 	},
 	{
 	  "_id": 142,
-	  "type": "Collective Exhibition Pavilion / Institutional Headquarters",
 	  "construction": "1992",
 	  "architect": "Álvaro Navarro & Miguel M. de Castilla",
 	  "images": {
@@ -3364,7 +3247,6 @@
 	},
 	{
 	  "_id": 143,
-	  "type": "Collective Exhibition Pavilion / University Campus",
 	  "construction": "1992",
 	  "architect": "Jesús Castañón Díaz, Ernesto Sánchez Zapata y Juan Luis Gómez Estern",
 	  "images": {
@@ -3388,7 +3270,6 @@
 	},
 	{
 	  "_id": 144,
-	  "type": "Exhibition Pavilion / Institutional Headquarters",
 	  "construction": "1992",
 	  "architect": "Juan Ruesga Navarro",
 	  "images": {
@@ -3412,7 +3293,6 @@
 	},
 	{
 	  "_id": 145,
-	  "type": "Corporate Pavilion / Restaurant & Venue",
 	  "construction": "1992",
 	  "architect": "Miguel de Oriol e Ybarra",
 	  "images": {
@@ -3436,7 +3316,6 @@
 	},
 	{
 	  "_id": 146,
-	  "type": "Exhibition Pavilion / Event Venue & Disco",
 	  "construction": "1992",
 	  "architect": "Pedro Ramírez Vázquez & Rafael de la Hoz",
 	  "images": {
@@ -3460,7 +3339,6 @@
 	},
 	{
 	  "_id": 147,
-	  "type": "Thematic Pavilion / Museum",
 	  "construction": "1991-1992",
 	  "architect": "Guillermo Vázquez Consuegra",
 	  "images": {
@@ -3484,7 +3362,6 @@
 	},
 	{
 	  "_id": 148,
-	  "type": "Observation Tower / Monument",
 	  "construction": "1992",
 	  "architect": "Guillermo Vázquez Consuegra",
 	  "images": {
@@ -3508,7 +3385,6 @@
 	},
 	{
 	  "_id": 149,
-	  "type": "Industrial Facility / Brewery & Visitor Center",
 	  "construction": "1904 (original brewery), current facilities expanded mid-20th century",
 	  "architect": "Various (industrial complex, multiple phases)",
 	  "images": {
@@ -3533,7 +3409,6 @@
 
 	{
 	  "_id": 150,
-	  "type": "Institutional Pavilion / Regional Headquarters",
 	  "construction": "1992",
 	  "architect": "Gilbert Barbany & Sebastián Mateu",
 	  "images": {
@@ -3557,7 +3432,6 @@
 	},
 	{
 	  "_id": 151,
-	  "type": "Transport Infrastructure / Archeology of the Expo",
 	  "construction": "1992",
 	  "architect": "Von Roll (System) / Various (Stations)",
 	  "images": {
@@ -3581,7 +3455,6 @@
 	},
 	{
 	  "_id": 152,
-	  "type": "Corporate Pavilion / Private Engineering Headquarters",
 	  "construction": "1992",
 	  "architect": "Manuel Carrilero de la Torre",
 	  "images": {
@@ -3605,7 +3478,6 @@
 	},
 	{
 	  "_id": 153,
-	  "type": "Communication Center / Administrative Offices",
 	  "construction": "1992",
 	  "architect": "Luis Marín de Terán & Aurelio del Pozo",
 	  "images": {
@@ -3629,7 +3501,6 @@
 	},
 	{
 	  "_id": 154,
-	  "type": "Administrative Building / Government Headquarters",
 	  "construction": "1993 (Post-Expo completion)",
 	  "architect": "Francisco Javier Sáenz de Oiza",
 	  "images": {
@@ -3653,7 +3524,6 @@
 	},
 	{
 	  "_id": 155,
-	  "type": "Multipurpose Stadium",
 	  "construction": "1999",
 	  "architect": "Antonio Cruz & Antonio Ortiz (Cruz y Ortiz Arquitectos)",
 	  "images": {
@@ -3677,7 +3547,6 @@
 	},
 	{
 	  "_id": 156,
-	  "type": "Religious Heritage / Historic Hospital",
 	  "construction": "13th - 16th Century",
 	  "architect": "Unknown (Mudejar) / Hernán Ruiz II (Renaissance interventions)",
 	  "images": {
@@ -3701,7 +3570,6 @@
 	},
 	{
 	  "_id": 157,
-	  "type": "Performing Arts Theatre",
 	  "construction": "1992",
 	  "architect": "Gerardo Ayala",
 	  "images": {
@@ -3725,7 +3593,6 @@
 	},
 	{
 	  "_id": 158,
-	  "type": "Corporate Pavilion / Private Engineering Headquarters",
 	  "construction": "1992",
 	  "architect": "Manuel Carrilero de la Torre",
 	  "images": {
@@ -3749,7 +3616,6 @@
 	},
 	{
 	  "_id": 159,
-	  "type": "Institutional Pavilion / Regional Operations Center",
 	  "construction": "1992",
 	  "architect": "Mariano Bayón Álvarez",
 	  "images": {
@@ -3773,7 +3639,6 @@
 	},
 	{
 	  "_id": 160,
-	  "type": "Institutional Pavilion / Telecommunications Center",
 	  "construction": "1992",
 	  "architect": "Horacio Domínguez López",
 	  "images": {
@@ -3797,7 +3662,6 @@
 	},
 	{
 	  "_id": 161,
-	  "type": "Luxury Hotel / Convention Center",
 	  "construction": "1992",
 	  "architect": "Javier Carvajal Ferrer",
 	  "images": {
@@ -3821,7 +3685,6 @@
 	},
 	{
 	  "_id": 162,
-	  "type": "Theme Park / Open Air Museum (Miniatures)",
 	  "construction": "1992",
 	  "architect": "Ignacio Aguilar García (Project Director)",
 	  "images": {
@@ -3845,7 +3708,6 @@
 	},
 	{
 	  "_id": 163,
-	  "type": "Artificial Lake / Performance Venue",
 	  "construction": "1992",
 	  "architect": "Julio Cano Lasso (Surroundings) / Expo '92 Landscape Team",
 	  "images": {
@@ -3869,7 +3731,6 @@
 	},
 		{
 	  "_id": 164,
-	  "type": "Hydraulic Engineering / Navigation Infrastructure",
 	  "construction": "1992",
 	  "architect": "Confederación Hidrográfica del Guadalquivir / Expo '92 Engineers",
 	  "images": {
@@ -3893,7 +3754,6 @@
 	},
 	{
 	  "_id": 165,
-	  "type": "Public Park / Botanical Garden",
 	  "construction": "1992",
 	  "architect": "Jorge Subirana & Silvia Decorde (Landscape Architects)",
 	  "images": {
@@ -3917,7 +3777,6 @@
 	},
 	{
 	  "_id": 166,
-	  "type": "Observation Tower / Landmark",
 	  "construction": "1991",
 	  "architect": "Huss Park Attractions (Engineering) / Realizada por Bremen",
 	  "images": {
@@ -3941,7 +3800,6 @@
 	},
 	{
 	  "_id": 163,
-	  "type": "Aeronautical Infrastructure / Public Heliport",
 	  "construction": "1988 (Inaugurated for Expo '92)",
 	  "architect": "Expo '92 Engineering Team",
 	  "images": {
