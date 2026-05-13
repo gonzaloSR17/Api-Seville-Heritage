@@ -1,1 +1,50 @@
-<p>wiki-sidebar works!</p>
+    
+    <h1 class="font-bold my-4 text-center text-2xl">Filtros</h1>
+    <form action="" class="max-w-sm mx-auto p-4" method="get">
+        <!-- Busqueda de nombre del edificio -->
+        <label for="name">Busca por nombre</label> <br>
+        <input type="text" name="name" id="name" placeholder="Ej:Catedral de Sevilla" class="my-4 w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"> <br>
+
+        <!-- Slider del año -->
+         <label for="year">Año de construcción</label>
+         <input  type="range" name="year" id="year" min="913" max="1992" value="1992" class="w-full h-2 bg-orange-100 rounded-lg appearance-none cursor-pointer accent-orange-600 focus:outline-none">
+         <div class = "flex justify-between mt-1 px-0.5 mb-4">
+            <span class="text-xs font-semibold text-slate-500">913</span>
+            <span class="text-xs font-semibold text-slate-500">1992</span>
+         </div>
+        
+        <!-- Lista de Arquitectos -->
+         <label for="architect">Arquitectos</label>
+            <select name="architect" id="architect" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+                <option value="">Todos</option>
+                <option value="AnibalGonzalez">Aníbal González</option>
+                <option value="JoseEspiau">José Espiau y Muñoz</option>>
+                <option value="JuanTalavera">Juan Talavera y Heredia</option>
+                <option value="JosePerez">José Pérez Reina</option>
+            </select>
+
+            <!-- Categoria del edificio -->
+         <label for="category">Categoria</label>
+            <select name="category" id="category" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+                <option value="">Todas</option>
+                <option value="Expo92">Expo 92</option>
+                <option value="Church">Church</option>
+                <option value="House">House</option>
+                <option value="Military">Military</option>
+                <option value="Publicservices">Public Services & Facilities</option>
+            </select>
+
+            <!-- Distrito -->
+         <label for="district">Distrito</label>
+<select name="district" id="district" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+    <option value="">Todas</option>
+    <option value="Bellavista">Bellavista</option>
+    <option value="CascoAntiguo">Casco Antiguo</option>
+    <option value="DistritoMacarena">Distrito Macarena</option>
+    <option value="DistritoSurLaPalmera">Distrito Sur La Palmera</option>
+    <option value="Nervion">Nervión</option>
+    <option value="ParqueDeMariaLuisa">Parque de María Luisa</option>
+    <option value="SanPabloSantaJusta">San Pablo-Santa Justa (Los Arcos)</option>
+    <option value="Triana">Triana</option>
+</select>
+    </form>
