@@ -1,0 +1,28 @@
+
+#title-main {
+    opacity: 0;
+    transform: translateX(-80px);
+
+    animation: aparecerIzquierda 1s ease-out forwards;
+}
+
+#description-main {
+    opacity: 0;
+    transform: translateX(80px);
+
+    animation: aparecerDerecha 1s ease-out forwards;
+}
+
+@keyframes aparecerIzquierda {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes aparecerDerecha {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

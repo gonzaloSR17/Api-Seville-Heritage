@@ -1,0 +1,17 @@
+.info-mg {
+  /* Estado inicial oculto */
+  opacity: 0;
+  transform: translateY(80px);
+}
+
+/* Esta clase se añadirá mediante TypeScript cuando el elemento entre en pantalla */
+.info-mg.visible {
+  animation: aparecerSubiendo 1s ease-out forwards;
+}
+
+@keyframes aparecerSubiendo {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,3 +1,20 @@
 body {
     background-color: #000000;
 }
+
+#loading {
+    text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.5em;
+        padding: 50px;
+}
+
+#error {
+    background-color: #ff6b6b;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px auto;
+        max-width: 600px;
+}
