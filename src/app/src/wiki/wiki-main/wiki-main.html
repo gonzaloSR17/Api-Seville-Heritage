@@ -1,4 +1,6 @@
-<div class="fixed top-0 left-0 w-full h-20 bg-white z-50 shadow-md">
+<div class="flex flex-col">
+<!-- Nav-Bar -->
+<div class="sticky top-0 left-0 bg-white/80 h-20 bg-white z-50 shadow-md">
 <div class="grid grid-cols-2 p-4">
     <div class="flex justify-start items-center">
         <h1 class="font-bold text-3xl">Sevilla Histórica</h1>
@@ -28,10 +30,6 @@
 </div>
 
 
-<!-- Separador -->
-<hr
-    class="my-4 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
-
 <div id="grid" class="pt-20">
   <!-- Nueva sintaxis de control de flujo -->
   @if (loadingWindow) {
@@ -55,7 +53,7 @@
     <div>
       
     </div>
-    <span class="bg-neutral-secondary-medium border border-default-medium text-heading text-[8px] font-medium px-1.5 py-0.5 rounded">{{ edificio.category }}</span>
+    <span class="bg-neutral-secondary-medium border border-default-medium text-heading text-[8px] font-medium px-1.5 py-0.5 rounded me-2">{{ edificio.category }}</span>
     <span class="bg-neutral-primary-soft border border-default text-heading text-[8px] font-medium px-1.5 py-0.5 rounded">{{ edificio.style }}</span>
     <p class="text-slate-600 leading-normal font-light">
       {{ edificio.description }}
@@ -73,3 +71,11 @@
 
 
 </div>
+
+
+</div>
+
+
+
+
+<!-- Separador -->
