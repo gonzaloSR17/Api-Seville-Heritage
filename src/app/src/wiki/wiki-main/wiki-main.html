@@ -1,3 +1,4 @@
+<div class="fixed top-0 left-0 w-full h-20 bg-white z-50 shadow-md">
 <div class="grid grid-cols-2 p-4">
     <div class="flex justify-start items-center">
         <h1 class="font-bold text-3xl">Sevilla Histórica</h1>
@@ -24,25 +25,51 @@
         </button>
     </div>
 </div>
+</div>
+
 
 <!-- Separador -->
 <hr
     class="my-4 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
 
-<div id="grid">
+<div id="grid" class="pt-20">
   <!-- Nueva sintaxis de control de flujo -->
   @if (loadingWindow) {
     <div id="loading">Cargando Edificios...</div>
   }
 
   @if (errorWindow) {
-    <h1 id="error">{{ 'Error' }}</h1>
+    <h1 id="error">{{ 'Error al cargar los edificios.' }}</h1>
   }
-
+<div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1">
   <!-- El bucle for también se ha actualizado a @for -->
   @for (edificio of edificios; track edificio.id) {
-    <div class="building-card">
-      <h2>{{ edificio.name }}</h2>
+    <div class="relative flex flex-col my-2 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
+  <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
+    <img src="{{ edificio.images.exterior }}" alt="card-image" />
+  </div>
+  <div class="p-4">
+    <h6 class="mb-2 text-slate-800 text-xl font-semibold">
+      {{ edificio.name }}
+    </h6>
+    <div>
+      
     </div>
+    <span class="bg-neutral-secondary-medium border border-default-medium text-heading text-[8px] font-medium px-1.5 py-0.5 rounded">{{ edificio.category }}</span>
+    <span class="bg-neutral-primary-soft border border-default text-heading text-[8px] font-medium px-1.5 py-0.5 rounded">{{ edificio.style }}</span>
+    <p class="text-slate-600 leading-normal font-light">
+      {{ edificio.description }}
+    </p>
+  </div>
+  <div class="px-4 pb-4 pt-0 mt-2">
+    <button class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+      Read more
+    </button>
+  </div>
+</div>  
   }
+</div>
+  
+
+
 </div>

@@ -37,16 +37,14 @@ export class WikiMain implements OnInit {
       // Convertimos la respuesta a JSON
       this.edificios = await response.json();
 
-      this.cdr.detectChanges();
+      this.loadingWindow = false;
 
-      console.log(this.edificios)
+      this.cdr.detectChanges();
 
     } catch (error) {
       console.error('Error al obtener las ciudades:', error);
-      this.errorWindow = true;
-    } finally {
-      // Desactivamos el boolena
       this.loadingWindow = false;
+      this.errorWindow = true;
     }
   }
 
