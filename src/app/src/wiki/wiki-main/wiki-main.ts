@@ -16,7 +16,7 @@ export class WikiMain implements OnInit {
   // Dentro de tu clase:
   private cdr = inject(ChangeDetectorRef);
 
-  apiURL: string = 'https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=12'
+  apiURL: string = 'https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15'
 
 
   ngOnInit(): void {

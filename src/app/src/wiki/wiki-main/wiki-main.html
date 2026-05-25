@@ -1,76 +1,82 @@
 <div class="flex flex-col">
-<!-- Nav-Bar -->
-<div class="sticky top-0 left-0 bg-white/80 h-20 bg-white z-50 shadow-md">
-<div class="grid grid-cols-2 p-4">
-    <div class="flex justify-start items-center">
+  <!-- Nav-Bar -->
+  <div class="sticky top-0 left-0 bg-white/80 h-20 bg-white z-50 shadow-md">
+    <div class="grid grid-cols-2 p-4">
+      <div class="flex justify-start items-center">
         <h1 class="font-bold text-3xl">Sevilla Histórica</h1>
-    </div>
-    <div class="flex justify-end gap-3">
+      </div>
+      <div class="flex justify-end gap-3">
         <!-- Boton para ver los cards -->
         <button class="bg-gray-200 rounded hover:bg-gray-400 p-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-            </svg>
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg>
         </button>
         <button class="bg-gray-200 hover:bg-gray-400 rounded p-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
-            </svg>
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
+          </svg>
         </button>
         <button class="bg-gray-200 hover:bg-gray-400 rounded p-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
-            </svg>
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
+          </svg>
         </button>
+      </div>
     </div>
-</div>
-</div>
+  </div>
 
 
-<div id="grid" class="pt-20">
-  <!-- Nueva sintaxis de control de flujo -->
-  @if (loadingWindow) {
+  <div id="grid" class="pt-5">
+    <!-- Nueva sintaxis de control de flujo -->
+    @if (loadingWindow) {
     <div id="loading">Cargando Edificios...</div>
-  }
+    }
 
-  @if (errorWindow) {
+    @if (errorWindow) {
     <h1 id="error">{{ 'Error al cargar los edificios.' }}</h1>
-  }
-<div class="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1">
-  <!-- El bucle for también se ha actualizado a @for -->
-  @for (edificio of edificios; track edificio.id) {
-    <div class="relative flex flex-col my-2 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
-  <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-    <img src="{{ edificio.images.exterior }}" alt="card-image" />
-  </div>
-  <div class="p-4">
-    <h6 class="mb-2 text-slate-800 text-xl font-semibold">
-      {{ edificio.name }}
-    </h6>
-    <div>
-      
+    }
+    <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center">
+      <!-- El bucle for también se ha actualizado a @for -->
+      @for (edificio of edificios; track edificio.id) {
+      <div class="relative flex flex-col my-2 bg-white shadow-sm border border-slate-200 rounded-lg w-86">
+        <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
+          <img src="{{ edificio.images.exterior }}" alt="card-image" />
+        </div>
+        <div class="p-4">
+          <h6 class="mb-2 text-slate-800 text-xl font-semibold">
+            {{ edificio.name }}
+          </h6>
+          <div>
+
+          </div>
+          <span
+            class="bg-neutral-secondary-medium border border-default-medium text-heading text-[8px] font-medium px-1.5 py-0.5 rounded me-2">{{
+            edificio.category }}</span>
+          <span
+            class="bg-neutral-primary-soft border border-default text-heading text-[8px] font-medium px-1.5 py-0.5 rounded">{{
+            edificio.style }}</span>
+          <p class="text-slate-600 leading-normal font-light">
+            {{ edificio.description }}
+          </p>
+        </div>
+        <div class="px-4 pb-4 pt-0 mt-2">
+          <button
+            class="rounded-md bg-orange-300 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button">
+            Read more
+          </button>
+        </div>
+      </div>
+      }
     </div>
-    <span class="bg-neutral-secondary-medium border border-default-medium text-heading text-[8px] font-medium px-1.5 py-0.5 rounded me-2">{{ edificio.category }}</span>
-    <span class="bg-neutral-primary-soft border border-default text-heading text-[8px] font-medium px-1.5 py-0.5 rounded">{{ edificio.style }}</span>
-    <p class="text-slate-600 leading-normal font-light">
-      {{ edificio.description }}
-    </p>
-  </div>
-  <div class="px-4 pb-4 pt-0 mt-2">
-    <button class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
-      Read more
-    </button>
-  </div>
-</div>  
-  }
-</div>
-  
 
 
-</div>
+
+  </div>
 
 
 </div>
