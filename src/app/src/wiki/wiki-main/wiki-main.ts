@@ -13,6 +13,7 @@ export class WikiMain implements OnInit {
   edificios: any[] = [];
   loadingWindow: boolean = true;
   errorWindow: boolean = false;
+  public filtrar: boolean = false
 
   totalPages = 0;
   countPage = 1;
@@ -22,7 +23,7 @@ export class WikiMain implements OnInit {
   private cdr = inject(ChangeDetectorRef);
 
   ngOnInit(): void {
-    this.obtenerCiudades(12);
+    this.obtenerCiudades(1);
   }
 
   // Funcion asincrona se ejecuta en segundo plano
@@ -32,7 +33,7 @@ export class WikiMain implements OnInit {
       this.countPage = numero;
 
       // Almacenamos la respuesta del fetch
-      const response = await fetch('https://backend-api-seville-heritage.onrender.com/data?_page=' + this.countPage + '&_limit=15');
+      const response = await fetch(this.aplicarFiltros());
 
       if (!response.ok) {
         throw new Error(`Error HTTP: ${response.status}`);
@@ -59,6 +60,15 @@ export class WikiMain implements OnInit {
     }
   }
 
+  aplicarFiltros() {
+    if (!this.filtrar) {
+      return 'https://backend-api-seville-heritage.onrender.com/data?_page=' + this.countPage + '&_limit=15'
+    } else {
+      // https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15&q=Aníbal
+      return 'https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15&q=Aníbal'
+    }
+  }
+
   marcarPagina(numero: number) {
     if (numero == this.countPage) {
       return true
@@ -66,4 +76,9 @@ export class WikiMain implements OnInit {
       return false
     }
   }
+
+  buscarElemento(valores: String[]) {
+
+  }
+
 }

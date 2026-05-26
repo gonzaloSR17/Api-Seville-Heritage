@@ -12,9 +12,9 @@
     <div class="grid grid-cols-12">
      <!-- El Hidden + sm:block bloqueamos el elemento html -->
     <div class="hidden sm:block col-span-3">
-        <app-wiki-sidebar></app-wiki-sidebar></div>
+        <app-wiki-sidebar [WikiMain]="main"></app-wiki-sidebar></div>
     <div class="col-span-12 lg:col-span-9 bg-orange-50">
-        <app-wiki-main></app-wiki-main></div>
+        <app-wiki-main #main></app-wiki-main></div>
     </div>
 </body>
 </html>
