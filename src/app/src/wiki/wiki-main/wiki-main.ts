@@ -10,18 +10,21 @@ import { NgClass } from '@angular/common';
 })
 export class WikiMain implements OnInit {
 
+  // Variable para almacenar los edificios obtenidos de la API, Ventana de error y de carga
   edificios: any[] = [];
   loadingWindow: boolean = true;
   errorWindow: boolean = false;
-  public filtrar: boolean = false
 
+  // Contador auxiliares y almacenamiento del link
   totalPages = 0;
   countPage = 1;
   pages: number[] = [];
+  api_url = 'https://backend-api-seville-heritage.onrender.com/data?';
 
-  // Dentro de tu clase:
+  // Refrescar cambios
   private cdr = inject(ChangeDetectorRef);
 
+  // (Nada mas que se inicie ejecutame esta funcion)
   ngOnInit(): void {
     this.obtenerCiudades(1);
   }
@@ -33,8 +36,9 @@ export class WikiMain implements OnInit {
       this.countPage = numero;
 
       // Almacenamos la respuesta del fetch
-      const response = await fetch(this.aplicarFiltros());
+      const response = await fetch( this.api_url + '_page=' + this.countPage + '&_limit=15');
 
+      // Verificamos si hay error, si lo hay lanzamos throw
       if (!response.ok) {
         throw new Error(`Error HTTP: ${response.status}`);
       }
@@ -42,15 +46,11 @@ export class WikiMain implements OnInit {
       // Contamos el total y lo dividimos en 15 paginas
       const total = Number(response.headers.get('x-total-count'));
       this.totalPages = Math.ceil(total / 15);
-
       this.pages = Array.from({ length: this.totalPages }, (_, i) => i + 1);
-      console.log("Paginas totales = ", this.pages)
 
-      // Convertimos la respuesta a JSON
+      // Convertimos la respuesta a JSON, hacemos desaparecer la ventana de carga + refrescamos los cambios
       this.edificios = await response.json();
-
       this.loadingWindow = false;
-
       this.cdr.detectChanges();
 
     } catch (error) {
@@ -60,25 +60,15 @@ export class WikiMain implements OnInit {
     }
   }
 
-  aplicarFiltros() {
-    if (!this.filtrar) {
-      return 'https://backend-api-seville-heritage.onrender.com/data?_page=' + this.countPage + '&_limit=15'
-    } else {
-      // https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15&q=Aníbal
-      return 'https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15&q=Aníbal'
-    }
+  // Funcion para limpiar los resultados
+  limpiarResultados() {
+    this.edificios = [];
+    this.pages = [];
+    this.cdr.detectChanges();
   }
 
-  marcarPagina(numero: number) {
-    if (numero == this.countPage) {
-      return true
-    } else {
-      return false
-    }
+  // Funcion [(NgClass)] para marcar la pagina actual
+   marcarPagina(numero: number) {
+    return numero == this.countPage
   }
-
-  buscarElemento(valores: String[]) {
-
-  }
-
 }

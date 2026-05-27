@@ -1,12 +1,12 @@
     <form class="max-w-sm mx-auto p-4 fixed" method="get">
         <h1 class="font-bold my-4 text-center text-2xl">Filtros</h1>
         <!-- Busqueda de nombre del edificio -->
-        <label for="name">Busca por nombre</label> <br>
-        <input type="text" name="name" id="name" placeholder="Ej:Catedral de Sevilla" class="my-4 w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"> <br>
+        <label for="search-input">Busca por nombre</label> <br>
+        <input [(ngModel)]="searchText" type="text" name="name" id="search-input" placeholder="Ej:Catedral de Sevilla" class="my-4 w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"> <br>
 
         <!-- Slider del año -->
          <label for="year">Año de construcción</label>
-         <input  type="range" name="year" id="year" min="913" max="1992" value="1992" class="w-full h-2 bg-orange-100 rounded-lg appearance-none cursor-pointer accent-orange-600 focus:outline-none">
+         <input type="range" name="year" id="year-input" min="913" max="1992" value="1992" class="w-full h-2 bg-orange-100 rounded-lg appearance-none cursor-pointer accent-orange-600 focus:outline-none">
          <div class = "flex justify-between mt-1 px-0.5 mb-4">
             <span class="text-xs font-semibold text-slate-500">913</span>
             <span class="text-xs font-semibold text-slate-500">1992</span>
@@ -14,29 +14,30 @@
         
         <!-- Lista de Arquitectos -->
          <label for="architect">Arquitectos</label>
-            <select name="architect" id="architect" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
-                <option value="">Todos</option>
-                <option value="AnibalGonzalez">Aníbal González</option>
-                <option value="JoseEspiau">José Espiau y Muñoz</option>>
-                <option value="JuanTalavera">Juan Talavera y Heredia</option>
-                <option value="JosePerez">José Pérez Reina</option>
+            <select [(ngModel)]="architectText" name="architect" id="architect-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+                <option value="Todos">Todos</option>
+                <option value="Aníbal%20González%20Álvarez-Ossorio">Aníbal González Álvarez-Ossorio</option>
+                <option value="José%20Espiau%20y%20Muñoz">José Espiau y Muñoz</option>
+                <option value="Juan%20Talavera%20y%20Heredia">Juan Talavera y Heredia</option>
+                <option value="José%20Pérez%20Reina">José Pérez Reina</option>
             </select>
 
             <!-- Categoria del edificio -->
          <label for="category">Categoria</label>
-            <select name="category" id="category" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
-                <option value="">Todas</option>
-                <option value="Expo92">Expo 92</option>
+            <select [(ngModel)]="categoryText" name="category" id="category-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+                <option value="Todos">Todos</option>
+                <option value="Expo%2029">Expo 29</option>
+                <option value="Expo%2092">Expo 92</option>
                 <option value="Church">Church</option>
                 <option value="House">House</option>
                 <option value="Military">Military</option>
-                <option value="Publicservices">Public Services & Facilities</option>
+                <option value="Public%20Services%20&%20Facilities">Public Services & Facilities</option>
             </select>
 
             <!-- Distrito -->
          <label for="district">Distrito</label>
-<select name="district" id="district" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
-    <option value="">Todas</option>
+<select [(ngModel)]="districtText" name="district" id="district-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+    <option value="Todos">Todos</option>
     <option value="Bellavista">Bellavista</option>
     <option value="CascoAntiguo">Casco Antiguo</option>
     <option value="DistritoMacarena">Distrito Macarena</option>
@@ -46,5 +47,5 @@
     <option value="SanPabloSantaJusta">San Pablo-Santa Justa (Los Arcos)</option>
     <option value="Triana">Triana</option>
 </select>
-<button type="button" id="search-button" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease focus:outline-none focus:shadow">Buscar</button>
+<button type="button" (click)="formarFiltro()" id="search-button" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease focus:outline-none focus:shadow">Buscar</button>
     </form>

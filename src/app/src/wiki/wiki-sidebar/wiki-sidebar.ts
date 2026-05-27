@@ -1,53 +1,59 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
-import { WikiMain } from '../wiki-main/wiki-main';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-wiki-sidebar',
-  imports: [WikiMain],
+  imports: [FormsModule],
   templateUrl: './wiki-sidebar.html',
   styleUrl: './wiki-sidebar.css',
 })
-export class WikiSidebar implements AfterViewInit{
+export class WikiSidebar{
 
   button: HTMLButtonElement | null = null;
-  @Input() WikiMain!: WikiMain;
 
-  ngAfterViewInit() {
-  this.button = document.getElementById('search-button') as HTMLButtonElement | null;
+  // Usaremos estas variables como NgModel, almacenamos las etiquetas HTML asi
+  searchText: string = '';
+  architectText: string = '';
+  categoryText: string = '';
+  districtText: string = '';
 
-  this.button?.addEventListener('click', () => {
-    console.log('clicked');
-    
-    // Cambiamos el valor a true
-    if (this.WikiMain) {
-      this.WikiMain.filtrar = true;
+  url: string = '';
 
-      console.log(this.WikiMain.filtrar)
-      
-      // Es vital llamar a la función de búsqueda después de activar el filtro
-      // para que se actualicen los datos inmediatamente
-      this.WikiMain.obtenerCiudades(1);
-    } else {
-      console.log("no entro")
+  formarFiltro() {
+
+      // Almacenamos la url 
+      this.url = 'https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15';
+       
+      // Verificamos si el valor de cada filtro no esta vacio y lo añadimos a la url
+      if (this.searchText) {
+        this.url += '&q=' + encodeURIComponent(this.searchText);
+       }
+
+      if (this.architectText) {
+      this.url += '&architect=' + this.architectText;
+      }
+
+      if (this.categoryText) {
+      this.url += '&category=' + this.categoryText;
+      }
+      if (this.districtText) {
+      this.url += '&district=' + this.districtText;
+      }
+
+      console.log(this.url);
+
     }
-  });
 }
 
-  // Dejamos las variables de String vacias
+// OPTIMIZACION
 
-  searchText: String = '';
-  yearText: String = '';
-  archietText: String = '';
-  categoryText: String = '';
-  districtText: String = '';
+// const params = new URLSearchParams();
 
-  // Buscamos el boton del formulario en el html
+// if (this.searchText) params.append('q', this.searchText);
+// if (this.architectText) params.append('architect', this.architectText);
+// if (this.categoryText) params.append('category', this.categoryText);
+// if (this.districtText) params.append('district', this.districtText);
 
-  
-
-  // Haremos las busquedas generales con: https://backend-api-seville-heritage.onrender.com/data?q=Aníbal
+// this.url = `https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15&${params.toString()}`;
 
 
-
-
-}
