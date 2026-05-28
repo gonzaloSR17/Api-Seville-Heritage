@@ -2,7 +2,7 @@
         <h1 class="font-bold my-4 text-center text-2xl">Filtros</h1>
         <!-- Busqueda de nombre del edificio -->
         <label for="search-input">Busca por nombre</label> <br>
-        <input [(ngModel)]="searchText" type="text" name="name" id="search-input" placeholder="Ej:Catedral de Sevilla" class="my-4 w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"> <br>
+        <input [(ngModel)]="filters.q" type="text" name="name" id="search-input" placeholder="Ej:Catedral de Sevilla" class="my-4 w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"> <br>
 
         <!-- Slider del año -->
          <label for="year">Año de construcción</label>
@@ -14,29 +14,29 @@
         
         <!-- Lista de Arquitectos -->
          <label for="architect">Arquitectos</label>
-            <select [(ngModel)]="architectText" name="architect" id="architect-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+            <select [(ngModel)]="filters.architect" name="architect" id="architect-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
                 <option value="Todos">Todos</option>
-                <option value="Aníbal%20González%20Álvarez-Ossorio">Aníbal González Álvarez-Ossorio</option>
-                <option value="José%20Espiau%20y%20Muñoz">José Espiau y Muñoz</option>
-                <option value="Juan%20Talavera%20y%20Heredia">Juan Talavera y Heredia</option>
-                <option value="José%20Pérez%20Reina">José Pérez Reina</option>
+                <option value="Aníbal González Álvarez-Ossorio">Aníbal González Álvarez-Ossorio</option>
+                <option value="José Espiau y Muñoz">José Espiau y Muñoz</option>
+                <option value="Juan Talavera y Heredia">Juan Talavera y Heredia</option>
+                <option value="José Pérez Reina">José Pérez Reina</option>
             </select>
 
             <!-- Categoria del edificio -->
          <label for="category">Categoria</label>
-            <select [(ngModel)]="categoryText" name="category" id="category-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+            <select [(ngModel)]="filters.category" name="category" id="category-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
                 <option value="Todos">Todos</option>
-                <option value="Expo%2029">Expo 29</option>
-                <option value="Expo%2092">Expo 92</option>
+                <option value="Expo 29">Expo 29</option>
+                <option value="Expo 92">Expo 92</option>
                 <option value="Church">Church</option>
                 <option value="House">House</option>
                 <option value="Military">Military</option>
-                <option value="Public%20Services%20&%20Facilities">Public Services & Facilities</option>
+                <option value="Public Services & Facilities">Public Services & Facilities</option>
             </select>
 
             <!-- Distrito -->
          <label for="district">Distrito</label>
-<select [(ngModel)]="districtText" name="district" id="district-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
+<select [(ngModel)]="filters.district" name="district" id="district-input" class="my-4 w-full bg-transparent text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow">
     <option value="Todos">Todos</option>
     <option value="Bellavista">Bellavista</option>
     <option value="CascoAntiguo">Casco Antiguo</option>

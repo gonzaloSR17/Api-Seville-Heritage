@@ -8,73 +8,47 @@ import { FilterService } from '../services/filter.service';
   templateUrl: './wiki-sidebar.html',
   styleUrl: './wiki-sidebar.css',
 })
+
+
 export class WikiSidebar{
 
-  // Importamos el servicio de Inyeccion para la comunicación de los modulos
+  // Importamos el servicio de Inyeccion para la comunicación de los modulos, asi puedo pasar variables entre si
   constructor(private filterService: FilterService) {}
 
   button: HTMLButtonElement | null = null;
 
-  // Usaremos estas variables como NgModel, almacenamos las etiquetas HTML asi
-  searchText: string = '';
-  architectText: string = '';
-  categoryText: string = '';
-  districtText: string = '';
+  // El objeto que se vincula directamente al HTML
+  filters = {
+    q: '',
+    architect: '',
+    category: '',
+    district: ''
+  };
 
   url: string = '';
 
   formarFiltro() {
+      // Creamos un nuevo elemento URLSearchParams() asi evitamos concatenar strings manualmente;
+      const params = new URLSearchParams();
 
-      // Almacenamos la url 
-      this.url = '';
-       
-      // Verificamos si el valor de cada filtro no esta vacio y lo añadimos a la url
-      if (this.searchText) {
-        this.url += '&q=' + encodeURIComponent(this.searchText);
-       }
-
-      if (this.architectText && this.architectText !== 'Todos') {
-      this.url += '&architect=' + this.architectText;
+      // Foreach que recorra los que tenga un valor
+      Object.entries(this.filters).forEach(([key, value]) => {
+        // Si el valor no es vacío y no es 'Todos', lo añadimos
+        if (value && value !== 'Todos') {
+          params.append(key, value); // append funcion interna de URLSearchParams para concatenar
       }
+      });
 
-      if (this.categoryText && this.categoryText !== 'Todos') {
-      this.url += '&category=' + this.categoryText;
-      }
-      if (this.districtText && this.districtText !== 'Todos') {
-      this.url += '&district=' + this.districtText;
-      }
-
-      console.log(this.url);
-
-      this.filterService.setUrl(this.url);
+      this.filterService.setUrl(params.toString());
 
     }
 
     // Funcion para limpiar el formulario
     limpiarResultados() {
-      this.searchText = '';
-      this.architectText = '';
-      this.categoryText = '';
-      this.districtText = '';
-
-      this.url = '';
-
-      this.filterService.setUrl(this.url);
+      this.filters = { q: '', architect: '', category: '', district: '' };
+      this.filterService.setUrl('');
     }
-
-
 }
 
 
 // OPTIMIZACION
-
-// const params = new URLSearchParams();
-
-// if (this.searchText) params.append('q', this.searchText);
-// if (this.architectText) params.append('architect', this.architectText);
-// if (this.categoryText) params.append('category', this.categoryText);
-// if (this.districtText) params.append('district', this.districtText);
-
-// this.url = `https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15&${params.toString()}`;
-
-

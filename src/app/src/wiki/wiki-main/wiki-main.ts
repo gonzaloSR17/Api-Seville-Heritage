@@ -55,10 +55,12 @@ export class WikiMain implements OnInit {
   async obtenerCiudades(numero: number) {
     try {
 
+      console.log('Aplicando a: ', `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15&${this.filtros}`);
+
       this.countPage = numero;
 
       // Almacenamos la respuesta del fetch
-      const response = await fetch( `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15${this.filtros}` );
+      const response = await fetch( `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15&${this.filtros}` );
 
       // Verificamos si hay error, si lo hay lanzamos throw
       if (!response.ok) {
