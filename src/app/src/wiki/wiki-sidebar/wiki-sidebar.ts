@@ -1,5 +1,6 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { FilterService } from '../services/filter.service';
 
 @Component({
   selector: 'app-wiki-sidebar',
@@ -8,6 +9,9 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './wiki-sidebar.css',
 })
 export class WikiSidebar{
+
+  // Importamos el servicio de Inyeccion para la comunicación de los modulos
+  constructor(private filterService: FilterService) {}
 
   button: HTMLButtonElement | null = null;
 
@@ -22,28 +26,45 @@ export class WikiSidebar{
   formarFiltro() {
 
       // Almacenamos la url 
-      this.url = 'https://backend-api-seville-heritage.onrender.com/data?_page=1&_limit=15';
+      this.url = '';
        
       // Verificamos si el valor de cada filtro no esta vacio y lo añadimos a la url
       if (this.searchText) {
         this.url += '&q=' + encodeURIComponent(this.searchText);
        }
 
-      if (this.architectText) {
+      if (this.architectText && this.architectText !== 'Todos') {
       this.url += '&architect=' + this.architectText;
       }
 
-      if (this.categoryText) {
+      if (this.categoryText && this.categoryText !== 'Todos') {
       this.url += '&category=' + this.categoryText;
       }
-      if (this.districtText) {
+      if (this.districtText && this.districtText !== 'Todos') {
       this.url += '&district=' + this.districtText;
       }
 
       console.log(this.url);
 
+      this.filterService.setUrl(this.url);
+
     }
+
+    // Funcion para limpiar el formulario
+    limpiarResultados() {
+      this.searchText = '';
+      this.architectText = '';
+      this.categoryText = '';
+      this.districtText = '';
+
+      this.url = '';
+
+      this.filterService.setUrl(this.url);
+    }
+
+
 }
+
 
 // OPTIMIZACION
 

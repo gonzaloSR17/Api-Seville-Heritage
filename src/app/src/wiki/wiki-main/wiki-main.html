@@ -77,13 +77,13 @@
 
   <!-- Paginacion (Botones)-->
    <div class="flex justify-center my-4 gap-2">
-    <button class="bg-gray-200 hover:bg-gray-400 rounded p-2"><</button>
+    <button class="bg-gray-200 hover:bg-gray-400 rounded p-2" (click)="anteriorApartado()"><</button>
     @for (page of pages; track page) {
     <button class="bg-gray-200 hover:bg-gray-400 rounded p-2" [ngClass]="marcarPagina(page)
       ? 'bg-orange-300 hover:bg-orange-500'
-      : 'bg-gray-200 hover:bg-gray-400'" (click)="this.obtenerCiudades(page)">{{ page }}</button>
+      : 'bg-gray-200 hover:bg-gray-400'" (click)="obtenerCiudades(page)">{{ page }}</button>
     }
-    <button class="bg-gray-200 hover:bg-gray-400 rounded p-2">></button>
+    <button class="bg-gray-200 hover:bg-gray-400 rounded p-2" (click)="siguienteApartado()">></button>
    </div>
 
 </div>

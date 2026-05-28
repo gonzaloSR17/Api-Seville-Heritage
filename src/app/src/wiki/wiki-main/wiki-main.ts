@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChangeDetectorRef, inject } from '@angular/core';
+import { FilterService } from '../services/filter.service';
 import { NgClass } from '@angular/common';
 
 @Component({
@@ -10,6 +11,9 @@ import { NgClass } from '@angular/common';
 })
 export class WikiMain implements OnInit {
 
+   // Importamos el servicio de Inyeccion para la comunicación de los modulos
+  constructor(private filterService: FilterService) {}
+
   // Variable para almacenar los edificios obtenidos de la API, Ventana de error y de carga
   edificios: any[] = [];
   loadingWindow: boolean = true;
@@ -19,14 +23,32 @@ export class WikiMain implements OnInit {
   totalPages = 0;
   countPage = 1;
   pages: number[] = [];
+  filtros: string = '';
   api_url = 'https://backend-api-seville-heritage.onrender.com/data?';
+
+  // boolean para asigar los resultados de los botones
+  filtrarBotonResul: boolean = false;
 
   // Refrescar cambios
   private cdr = inject(ChangeDetectorRef);
 
   // (Nada mas que se inicie ejecutame esta funcion)
+  // Tambien escucha evento si cambia ejecuta el evento
   ngOnInit(): void {
     this.obtenerCiudades(1);
+
+    //al hacer un set en sidebar en wiki main da el aviso y ejecuta la funcion asignada
+    // Aunque este en un ngOnInit si cambia se ejecuta
+    this.filterService.url$.subscribe(url => {
+    if (url != '') {
+      this.obtenerCiudadesDesdeUrl(url);
+    } else {
+      console.log('No hay filtro aplicado');
+      this.filtros = '';
+      this.limpiarResultados();
+      this.obtenerCiudades(1);
+    }
+  });
   }
 
   // Funcion asincrona se ejecuta en segundo plano
@@ -36,7 +58,7 @@ export class WikiMain implements OnInit {
       this.countPage = numero;
 
       // Almacenamos la respuesta del fetch
-      const response = await fetch( this.api_url + '_page=' + this.countPage + '&_limit=15');
+      const response = await fetch( `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15${this.filtros}` );
 
       // Verificamos si hay error, si lo hay lanzamos throw
       if (!response.ok) {
@@ -52,6 +74,9 @@ export class WikiMain implements OnInit {
       this.edificios = await response.json();
       this.loadingWindow = false;
       this.cdr.detectChanges();
+
+      // Movemos la vista desde arriba
+      this.reestablecerVista();
 
     } catch (error) {
       console.error('Error al obtener las ciudades:', error);
@@ -71,4 +96,46 @@ export class WikiMain implements OnInit {
    marcarPagina(numero: number) {
     return numero == this.countPage
   }
+
+   obtenerCiudadesDesdeUrl(url: string) {
+    console.log('FILTRO MODIFICADO: ', url);
+
+    // Agregamos el url
+    this.filtros = url;
+    
+    // Limpiamos la funcion
+    this.limpiarResultados();
+
+    this.obtenerCiudades(1);
+
+  }
+
+
+
+  // ======================
+  // FUNCION DE PRUEBA
+  // ======================
+
+  siguienteApartado(){
+    if (this.countPage < this.totalPages) {
+      this.countPage++;
+      this.obtenerCiudades(this.countPage);
+    }
+    
+  }
+  
+  anteriorApartado() {
+    if (this.countPage > 1) {
+      this.countPage--;
+      this.obtenerCiudades(this.countPage);
+    }
+  }
+
+  reestablecerVista() {
+    window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+    });
+  }
+
 }
