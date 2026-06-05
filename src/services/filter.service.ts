@@ -8,7 +8,7 @@ export class FilterService {
   private urlSubject = new BehaviorSubject<string>('');
   url$ = this.urlSubject.asObservable();
 
-  setUrl(url: string) {
+  setUrl(url: any) {
     this.urlSubject.next(url);
   }
 }

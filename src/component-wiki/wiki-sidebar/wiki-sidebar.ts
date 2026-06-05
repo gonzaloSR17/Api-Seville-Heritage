@@ -1,6 +1,6 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FilterService } from '../services/filter.service';
+import { FilterService } from '../../services/filter.service';
 
 @Component({
   selector: 'app-wiki-sidebar',
@@ -28,18 +28,13 @@ export class WikiSidebar{
   url: string = '';
 
   formarFiltro() {
-      // Creamos un nuevo elemento URLSearchParams() asi evitamos concatenar strings manualmente;
-      const params = new URLSearchParams();
+      // Filtamos los valores vacios y los agregamos a una variable objetos
+      const filtrosActivos = Object.fromEntries(
+        // Object Entries asignamos a cada clave su valor y lo convertimos en un array de pares [clave, valor]
+        Object.entries(this.filters).filter(([key, value]) => value && value !== 'Todos') // Si valor existe y no es igual a todos
+      );
 
-      // Foreach que recorra los que tenga un valor
-      Object.entries(this.filters).forEach(([key, value]) => {
-        // Si el valor no es vacío y no es 'Todos', lo añadimos
-        if (value && value !== 'Todos') {
-          params.append(key, value); // append funcion interna de URLSearchParams para concatenar
-      }
-      });
-
-      this.filterService.setUrl(params.toString());
+      this.filterService.setUrl(filtrosActivos);
 
     }
 
@@ -52,3 +47,16 @@ export class WikiSidebar{
 
 
 // OPTIMIZACION
+
+// codigo antiguo
+
+//  // Creamos un nuevo elemento URLSearchParams() asi evitamos concatenar strings manualmente;
+//       const params = new URLSearchParams();
+
+//       // Foreach que recorra los que tenga un valor
+//       Object.entries(this.filters).forEach(([key, value]) => {
+//         // Si el valor no es vacío y no es 'Todos', lo añadimos
+//         if (value && value !== 'Todos') {
+//           params.append(key, value.trim()); // append funcion interna de URLSearchParams para concatenar
+//       }
+//       });

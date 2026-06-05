@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ChangeDetectorRef, inject } from '@angular/core';
-import { FilterService } from '../services/filter.service';
+import { FilterService } from '../../services/filter.service';
+import { ApiService } from '../../services/api.service';
 import { NgClass } from '@angular/common';
 
 @Component({
@@ -12,7 +13,10 @@ import { NgClass } from '@angular/common';
 export class WikiMain implements OnInit {
 
    // Importamos el servicio de Inyeccion para la comunicación de los modulos
-  constructor(private filterService: FilterService) {}
+  constructor(
+    private filterService: FilterService,
+    private apiService: ApiService
+  ) {}
 
   // Variable para almacenar los edificios obtenidos de la API, Ventana de error y de carga
   edificios: any[] = [];
@@ -53,38 +57,27 @@ export class WikiMain implements OnInit {
 
   // Funcion asincrona se ejecuta en segundo plano
   async obtenerCiudades(numero: number) {
-    try {
+    this.loadingWindow = true;
+    this.countPage = numero;
 
-      console.log('Aplicando a: ', `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15&${this.filtros}`);
-
-      this.countPage = numero;
-
-      // Almacenamos la respuesta del fetch
-      const response = await fetch( `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15&${this.filtros}` );
-
-      // Verificamos si hay error, si lo hay lanzamos throw
-      if (!response.ok) {
-        throw new Error(`Error HTTP: ${response.status}`);
+    // Ejecutamos el servicio HTTParams, subscribe para recibir la respuesta y asignarla a edificios, ademas de contar el total de paginas
+    this.apiService.getEdificios(this.countPage, this.filtros).subscribe({
+      next: (response) => {
+        // Recogemos el x-total-count del header
+        const total = Number(response.headers.get('x-total-count'))
+        this.totalPages = Math.ceil(total / 15); // Calculamos el total de paginas, diviendo el total entre 15, ceil es division
+        this.pages = Array.from({ length: this.totalPages }, (_, i) => i + 1); // Creamos un array con el numero de paginas, hacemos un foreach para sumar +1 para hacer un indice mas adecuado
+      
+        this.edificios = response.body || []; // Asignamos la respuesta al array de edificios, si no hay respuesta asignamos un array vacio
+        this.loadingWindow = false;
+        this.reestablecerVista(); // ScrollTop Hacia arriba
+      },
+      error: (err) => {
+        console.error('Error al obtener las ciudades:', err);
+        this.loadingWindow = false;
+        this.errorWindow = true;
       }
-
-      // Contamos el total y lo dividimos en 15 paginas
-      const total = Number(response.headers.get('x-total-count'));
-      this.totalPages = Math.ceil(total / 15);
-      this.pages = Array.from({ length: this.totalPages }, (_, i) => i + 1);
-
-      // Convertimos la respuesta a JSON, hacemos desaparecer la ventana de carga + refrescamos los cambios
-      this.edificios = await response.json();
-      this.loadingWindow = false;
-      this.cdr.detectChanges();
-
-      // Movemos la vista desde arriba
-      this.reestablecerVista();
-
-    } catch (error) {
-      console.error('Error al obtener las ciudades:', error);
-      this.loadingWindow = false;
-      this.errorWindow = true;
-    }
+    });
   }
 
   // Funcion para limpiar los resultados
@@ -112,12 +105,6 @@ export class WikiMain implements OnInit {
 
   }
 
-
-
-  // ======================
-  // FUNCION DE PRUEBA
-  // ======================
-
   siguienteApartado(){
     if (this.countPage < this.totalPages) {
       this.countPage++;
@@ -134,6 +121,7 @@ export class WikiMain implements OnInit {
   }
 
   reestablecerVista() {
+    this.cdr.detectChanges();
     window.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -141,3 +129,41 @@ export class WikiMain implements OnInit {
   }
 
 }
+
+
+// CODIGO ANTIGUO
+  // Funcion asincrona se ejecuta en segundo plano
+  // async obtenerCiudades(numero: number) {
+  //   try {
+
+  //     console.log('Aplicando a: ', `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15&${this.filtros}`);
+
+  //     this.countPage = numero;
+
+  //     // Almacenamos la respuesta del fetch
+  //     const response = await fetch( `https://backend-api-seville-heritage.onrender.com/data?_page=${this.countPage}&_limit=15&${this.filtros}` );
+
+  //     // Verificamos si hay error, si lo hay lanzamos throw
+  //     if (!response.ok) {
+  //       throw new Error(`Error HTTP: ${response.status}`);
+  //     }
+
+  //     // Contamos el total y lo dividimos en 15 paginas
+  //     const total = Number(response.headers.get('x-total-count'));
+  //     this.totalPages = Math.ceil(total / 15);
+  //     this.pages = Array.from({ length: this.totalPages }, (_, i) => i + 1);
+
+  //     // Convertimos la respuesta a JSON, hacemos desaparecer la ventana de carga + refrescamos los cambios
+  //     this.edificios = await response.json();
+  //     this.loadingWindow = false;
+  //     this.cdr.detectChanges();
+
+  //     // Movemos la vista desde arriba
+  //     this.reestablecerVista();
+
+  //   } catch (error) {
+  //     console.error('Error al obtener las ciudades:', error);
+  //     this.loadingWindow = false;
+  //     this.errorWindow = true;
+  //   }
+  // }
