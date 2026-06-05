@@ -1,6 +1,7 @@
 import { Component, AfterViewInit, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { FilterService } from '../../services/filter.service';
+import { EdificioPoo } from '../../models/edificio.model';
 
 @Component({
   selector: 'app-wiki-sidebar',
@@ -18,7 +19,7 @@ export class WikiSidebar{
   button: HTMLButtonElement | null = null;
 
   // El objeto que se vincula directamente al HTML
-  filters = {
+  edificioFiltrado: EdificioPoo = {
     q: '',
     architect: '',
     category: '',
@@ -31,17 +32,17 @@ export class WikiSidebar{
       // Filtamos los valores vacios y los agregamos a una variable objetos
       const filtrosActivos = Object.fromEntries(
         // Object Entries asignamos a cada clave su valor y lo convertimos en un array de pares [clave, valor]
-        Object.entries(this.filters).filter(([key, value]) => value && value !== 'Todos') // Si valor existe y no es igual a todos
+        Object.entries(this.edificioFiltrado).filter(([key, value]) => value && value !== 'Todos') // Si valor existe y no es igual a todos
       );
 
-      this.filterService.setUrl(filtrosActivos);
+      this.filterService.setUrl(this.edificioFiltrado);
 
     }
 
     // Funcion para limpiar el formulario
     limpiarResultados() {
-      this.filters = { q: '', architect: '', category: '', district: '' };
-      this.filterService.setUrl('');
+      this.edificioFiltrado = { q: '', architect: '', category: '', district: '' };
+      this.filterService.setUrl(this.edificioFiltrado);
     }
 }
 

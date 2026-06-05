@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ChangeDetectorRef, inject } from '@angular/core';
 import { FilterService } from '../../services/filter.service';
 import { ApiService } from '../../services/api.service';
+import { EdificioPoo } from '../../models/edificio.model';
 import { NgClass } from '@angular/common';
 
 @Component({
@@ -27,7 +28,7 @@ export class WikiMain implements OnInit {
   totalPages = 0;
   countPage = 1;
   pages: number[] = [];
-  filtros: string = '';
+  filtros: EdificioPoo = { q: '', architect: '', category: '', district: '' };
   api_url = 'https://backend-api-seville-heritage.onrender.com/data?';
 
   // boolean para asigar los resultados de los botones
@@ -44,11 +45,11 @@ export class WikiMain implements OnInit {
     //al hacer un set en sidebar en wiki main da el aviso y ejecuta la funcion asignada
     // Aunque este en un ngOnInit si cambia se ejecuta
     this.filterService.url$.subscribe(url => {
-    if (url != '') {
+    if (url) {
       this.obtenerCiudadesDesdeUrl(url);
     } else {
       console.log('No hay filtro aplicado');
-      this.filtros = '';
+      this.filtros = { q: '', architect: '', category: '', district: '' };
       this.limpiarResultados();
       this.obtenerCiudades(1);
     }
@@ -92,7 +93,7 @@ export class WikiMain implements OnInit {
     return numero == this.countPage
   }
 
-   obtenerCiudadesDesdeUrl(url: string) {
+   obtenerCiudadesDesdeUrl(url: EdificioPoo) {
     console.log('FILTRO MODIFICADO: ', url);
 
     // Agregamos el url

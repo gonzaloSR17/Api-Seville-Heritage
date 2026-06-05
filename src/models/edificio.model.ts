@@ -1,8 +1,7 @@
 // Edificio filtrado por busqueda
 
 export interface EdificioPoo {
-  id: number;
-  nombre: string;
+  q: string;
   architect: string;
   category: string;
   district: string;

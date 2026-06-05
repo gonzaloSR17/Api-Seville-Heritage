@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 // HTTpClient en vez de fetch ya que es mas potente y se maneja mejor los erorres
 import { HttpClient, HttpParams, HttpResponse } from '@angular/common/http';
+import { EdificioPoo } from '../models/edificio.model';
 import { Observable
 
  } from 'rxjs';
@@ -17,12 +18,18 @@ export class ApiService {
 
   // Metodo para recibir filtros y páginas
   // devuelve TODA la respuesta
-  getEdificios(page: number, filtros: string): Observable<HttpResponse<any[]>> {
+  getEdificios(page: number, filtros: EdificioPoo): Observable<HttpResponse<any[]>> {
     // Formamos la url
-    const params = new HttpParams()
+    let params = new HttpParams()
       .set('_page', page.toString())
       .set('_limit', '15')
-      .set('filtros', filtros); // Ajusta esto según cómo funcione tu API
+      
+      // Iteramos el objeto de filtros y lo agregamos a HttpParams()
+      Object.entries(filtros).forEach(([key, value]) => {
+        if (value && value !== 'Todos') {
+          params = params.set(key, String(value).trim());
+        }
+      })
 
     // devolvemos la respuesta completa para poder acceder a los headers (x-total-count)
     console.log(params.toString());
