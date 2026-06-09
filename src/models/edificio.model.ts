@@ -6,3 +6,4 @@ export interface EdificioPoo {
   category: string;
   district: string;
 }
+

@@ -3,11 +3,14 @@ import { ChangeDetectorRef, inject } from '@angular/core';
 import { FilterService } from '../../services/filter.service';
 import { ApiService } from '../../services/api.service';
 import { EdificioPoo } from '../../models/edificio.model';
+import { edificios } from '../../models/edificios.model';
+import { ModalService } from '../../services/modal-service';
 import { NgClass } from '@angular/common';
+import { WikiModal } from "../wiki-modal/wiki-modal";
 
 @Component({
   selector: 'app-wiki-main',
-  imports: [NgClass],
+  imports: [NgClass, WikiModal],
   templateUrl: './wiki-main.html',
   styleUrl: './wiki-main.css',
 })
@@ -16,11 +19,12 @@ export class WikiMain implements OnInit {
    // Importamos el servicio de Inyeccion para la comunicación de los modulos
   constructor(
     private filterService: FilterService,
-    private apiService: ApiService
+    private apiService: ApiService,
+    public modalService: ModalService
   ) {}
 
   // Variable para almacenar los edificios obtenidos de la API, Ventana de error y de carga
-  edificios: any[] = [];
+  edificios: edificios[] = [];
   loadingWindow: boolean = true;
   errorWindow: boolean = false;
 
@@ -128,6 +132,25 @@ export class WikiMain implements OnInit {
     behavior: "smooth",
     });
   }
+
+  abrirDialogo(edificioSeleccionado: edificios) {
+    // Enviamos el objeto seleccionado
+    this.modalService.setUrl(edificioSeleccionado);
+
+    // Abrimos el modal
+    this.modalService.show();
+  }
+
+  private precargadas = new Set<string>();
+
+precargarInterior(url: string) {
+  if (!this.precargadas.has(url)) {
+    const img = new Image();
+    img.src = url;
+    this.precargadas.add(url);
+    console.log('Precargando interior:', url); // Verás que solo ocurre al pasar el ratón
+  }
+}
 
 }
 

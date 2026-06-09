@@ -33,7 +33,11 @@
   <div id="grid" class="pt-5">
     <!-- Nueva sintaxis de control de flujo -->
     @if (loadingWindow) {
-    <div id="loading">Cargando Edificios...</div>
+    <div id="loading">Cargando Edificios...
+      <br>
+      <i class="pi pi-spin pi-spinner mt-4" style="font-size: 2rem"></i>
+    </div>
+
     }
 
     @if (errorWindow) {
@@ -42,7 +46,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center">
       <!-- El bucle for también se ha actualizado a @for -->
       @for (edificio of edificios; track edificio.id) {
-      <div class="relative flex flex-col my-2 bg-white shadow-sm border border-slate-200 rounded-lg w-86">
+      <div class="relative flex flex-col my-2 bg-white shadow-sm border border-slate-200 rounded-lg w-86" (mouseenter)="precargarInterior(edificio.images.interior)">
         <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
           <img src="{{ edificio.images.exterior }}" alt="card-image" />
         </div>
@@ -66,8 +70,7 @@
         <div class="px-4 pb-4 pt-0 mt-2">
           <button
             class="rounded-md bg-orange-300 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            type="button">
-            Read more
+            pButton label="Abrir el modal de Gon" (click)="abrirDialogo(edificio)">More Info...
           </button>
         </div>
       </div>
@@ -87,4 +90,8 @@
    </div>
 
 </div>
+
+<app-wiki-modal></app-wiki-modal>
+
+
 
