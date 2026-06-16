@@ -141,13 +141,16 @@ export class WikiMain implements OnInit {
     this.modalService.show();
   }
 
-  private precargadas = new Set<string>();
+
+// FUNCION para cargar las imagenes interiores mas rapidos, el set bloquea elementos repetidos
+private precargadas = new Set<string>();
 
 precargarInterior(url: string) {
+  // Si esta imagen ya las tienes guardada no hagas NADA
   if (!this.precargadas.has(url)) {
-    const img = new Image();
-    img.src = url;
-    this.precargadas.add(url);
+    const img = new Image(); // Creamos una memoria invisible etiqueta img para crear la imagen
+    img.src = url; // asi cargamos el src
+    this.precargadas.add(url); // Añadimos al SET
     console.log('Precargando interior:', url); // Verás que solo ocurre al pasar el ratón
   }
 }
