@@ -18,20 +18,20 @@ import { WikiModalMap } from '../wiki-modal-map/wiki-modal-map';
             <!-- Maximizable hace que podamos ampliar -->
             <!-- (onHide)="limpiarEdificio()" cuando se cierre limpia el objeto asignado del modal -->
             <!-- [focusOnShow]="false", si se carga algo mas abajo como mapa, imagenes etc, este bloquea para que no se redimensione el scroll -->
-            <p-dialog header="{{ edificio?.name }}" [modal]="true" [(visible)]="modalService.visible" [style]="{ width: '50rem' }" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" [maximizable]="true" (onHide)="limpiarEdificio()" [focusOnShow]="false">
-                <div class="grid grid-cols-4 gap-4 mb-6">
-                    <div class="col-span-2 flex items-center">
+            <p-dialog header="{{ edificio?.name }}" headerStyleClass="bg-orange-500 text-white font-bold" [modal]="true" [(visible)]="modalService.visible" [style]="{ width: '50rem' }" [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" [maximizable]="true" (onHide)="limpiarEdificio()" [focusOnShow]="false">
+                <div class="grid grid-cols-4 gap-4 my-4">
+                    <div class="col-span-2 lg:col-span-2 md:col-span-2 sm:col-span-2 flex items-center">
                       <img [src]="edificio?.images?.exterior" alt="{{ edificio?.name }}" class="w-full h-auto rounded-lg shadow-md">
                     </div>
-                    <div class="col-span-2 flex items-center">
+                    <div class="col-span-2 lg:col-span-2 md:col-span-2 sm:col-span-2 flex items-center">
                       <img [src]="edificio?.images?.interior" alt="{{ edificio?.name }}" class="w-full h-auto rounded-lg shadow-md">
                     </div>
-                    <div class="col-span-2 flex items-center">
-                       <p>
+                    <div class="col-span-4 lg:col-span-2 md:col-span-2 sm:col-span-4 flex items-start mt-4">
+                       <p class="text-sm">
                         {{ edificio?.description }}
                     </p>
                     </div>
-                    <div class="col-span-2 flex items-center justify-center">
+                    <div class="col-span-4 lg:col-span-2 md:col-span-2 sm:col-span-4 flex items-center justify-center">
                       <app-wiki-modal-map></app-wiki-modal-map>
                     </div>
                 </div>

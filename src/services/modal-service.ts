@@ -8,6 +8,7 @@ export class ModalService {
   private urlSubject = new BehaviorSubject<edificios | null>(null);
   url$ = this.urlSubject.asObservable();
   visible: boolean = false;
+  mapa: boolean = false;
 
   show() {
     console.log("Entro")
@@ -17,4 +18,20 @@ export class ModalService {
   setUrl(url: edificios) {
       this.urlSubject.next(url);
     }
+
+  // Para cambiar de wiki a mapa
+  cambiarMapa(){
+    this.mapa = true;
+  }
+
+  // Para cambiar de mapa a wiki
+  cambiarWiki(){
+    this.mapa = false;
+  }
+
+  getMapaBool(): boolean{
+    return this.mapa;
+  }
+
+
 }

@@ -155,6 +155,11 @@ precargarInterior(url: string) {
   }
 }
 
+// Funcion para cambiar mapa
+cargarApartadoMapa() {
+  this.modalService.cambiarMapa();
+}
+
 }
 
 

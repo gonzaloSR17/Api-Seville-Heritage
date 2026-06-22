@@ -1,0 +1,23 @@
+:host ::ng-deep .p-dialog .p-dialog-header {
+    /* Gradiente naranja vibrante y llamativo */
+    background: linear-gradient(90deg, #ff4500 0%, #ff8c00 100%);
+    
+
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.25rem; /* Un poco más grande para darle presencia */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    
+    box-shadow: 0 4px 6px -1px rgba(255, 69, 0, 0.3);
+}
+
+:host ::ng-deep .p-dialog .p-dialog-header .p-dialog-header-icon {
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+
+:host ::ng-deep .p-dialog .p-dialog-header .p-dialog-header-icon:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    transform: scale(1.1); /* Un pequeño efecto al pasar el ratón */
+}

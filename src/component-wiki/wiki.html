@@ -14,7 +14,13 @@
     <div class="hidden sm:block col-span-3">
         <app-wiki-sidebar></app-wiki-sidebar></div>
     <div class="col-span-12 lg:col-span-9 bg-orange-50">
-        <app-wiki-main ></app-wiki-main></div>
+        <app-wiki-navbar></app-wiki-navbar>
+        @if (this.modalService.getMapaBool()) {
+            <app-wiki-map></app-wiki-map>
+        } @else {
+            <app-wiki-main ></app-wiki-main>
+        }
+    </div>
     </div>
 
 

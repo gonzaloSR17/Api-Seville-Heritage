@@ -39,4 +39,10 @@ export class ApiService {
       observe: 'response' // Esto nos permite obtener los headers (x-total-count)
     });
   }
+
+  // Metodo para devolver todos los 200 edifcios 
+  getEdificioMap(): Observable<any[]> {
+     return this.http.get<any[]>(this.baseUrl);
+  }
+
 }
