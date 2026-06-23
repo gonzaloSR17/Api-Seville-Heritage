@@ -5,6 +5,8 @@ import { ModalService } from '../../services/modal-service';
 // Importamos leaflet
 import * as L from 'leaflet'
 import { edificios } from '../../models/edificios.model';
+import { EdificioPoo } from '../../models/edificio.model';
+import { FilterService } from '../../services/filter.service';
 
 @Component({
   selector: 'app-wiki-map',
@@ -17,6 +19,7 @@ export class WikiMap implements AfterViewInit, OnInit {
 
     // Variable para cargar los objetos
     edificios: edificios[] = [];
+    filtros: EdificioPoo = { q: '', architect: '', category: '', district: '' };
     lat : number = 0;
     lng: number = 0;
 
@@ -33,6 +36,8 @@ export class WikiMap implements AfterViewInit, OnInit {
     
       // Marcador
       private marker!: L.Marker;
+
+      private markerGroup!: L.LayerGroup;
     
       // Imagen del marcador
       private icono: L.Icon = L.icon({
@@ -44,11 +49,28 @@ export class WikiMap implements AfterViewInit, OnInit {
       private initialized = false;
     
       constructor(public modalService: ModalService,
-        private apiService: ApiService
+        private apiService: ApiService,
+        private filter: FilterService
+
       ) {}
 
     ngOnInit(): void {
       this.obtenerCiudades();
+
+    //al hacer un set en sidebar en wiki main da el aviso y ejecuta la funcion asignada
+    // Aunque este en un ngOnInit si cambia se ejecuta
+    this.filter.url$.subscribe(url => {
+      if (url) {
+        console.log("Ejecutando...")
+        this.obtenerCiudadesDesdeUrl(url);
+      } else {
+        console.log('No se EJECUTO NADA');
+        this.filtros = { q: '', architect: '', category: '', district: '' };
+        //this.limpiarResultados();
+        //this.obtenerCiudades(1);
+      }
+    })
+
     }
 
     ngAfterViewInit(): void {
@@ -62,6 +84,8 @@ export class WikiMap implements AfterViewInit, OnInit {
             attribution: '© OpenStreetMap'
           }).addTo(this.map);
       
+      this.markerGroup = L.layerGroup().addTo(this.map);
+      
           // 3. Guardar referencia del marcador
           // this.marker = L.marker([37.3461, -5.9715], { icon: this.icono }).bindPopup("Soy un marcador SVG.").addTo(this.map);
 
@@ -73,15 +97,17 @@ export class WikiMap implements AfterViewInit, OnInit {
       // Funcion para cargar todos los edificios
       async obtenerCiudades() {
         // Nos suscribimos
-        this.apiService.getEdificioMap().subscribe({
+        this.apiService.getEdificios(0, this.filtros).subscribe({
           next: (response) => {
-            this.edificios = response || []; // Asignamos la respuesta al array de edificios, si no hay respuesta asignamos un array vacio
-            
+            this.edificios = response.body || []; // Asignamos la respuesta al array de edificios, si no hay respuesta asignamos un array vacio
+
             this.edificios.forEach((e) => {
                 if (e.location.lat && e.location.lng) {
 
-                      this.marker = L.marker([e.location.lat, e.location.lng], { icon: this.elegirIcono(e.category) }).bindPopup(this.popUp(e)).addTo(this.map);
+                      this.marker = L.marker([e.location.lat, e.location.lng], { icon: this.elegirIcono(e.category) }).bindPopup(this.popUp(e)).addTo(this.markerGroup);
+                    
                   }
+
             });
               
           } 
@@ -116,6 +142,27 @@ export class WikiMap implements AfterViewInit, OnInit {
                 <p>${edificio.style}</p>
                 `);
       }
+
+    obtenerCiudadesDesdeUrl(url: EdificioPoo) {
+      console.log('FILTRO MODIFICADO MAPA: ', url);
+
+      // Agregamos el url
+      this.filtros = url;
+      
+      // Limpiamos la funcion
+      //this.limpiarResultados();
+
+      // limpiamos los marcadores
+      // 1. Crear el grupo una vez
+
+      this.markerGroup.clearLayers();
+
+      // Ejecutamos otra vez
+      this.obtenerCiudades();
+
+    }
+
+    
 
 
     }

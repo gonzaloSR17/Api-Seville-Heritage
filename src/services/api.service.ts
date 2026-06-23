@@ -5,6 +5,7 @@ import { EdificioPoo } from '../models/edificio.model';
 import { Observable
 
  } from 'rxjs';
+import { ModalService } from './modal-service';
 @Injectable({
   providedIn: 'root',
 })
@@ -14,16 +15,22 @@ export class ApiService {
   private baseUrl = 'https://backend-api-seville-heritage.onrender.com/data';
 
   // Constructor para usar HttpClient
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient,
+    private modalServices: ModalService
+  ) {}
 
   // Metodo para recibir filtros y páginas
   // devuelve TODA la respuesta
   getEdificios(page: number, filtros: EdificioPoo): Observable<HttpResponse<any[]>> {
+    
+    let params = new HttpParams();
+    
     // Formamos la url
-    let params = new HttpParams()
-      .set('_page', page.toString())
-      .set('_limit', '15')
-      
+    if (!this.modalServices.getMapaBool()) {
+          params =
+      params.set('_page', page.toString()).set('_limit', '15')
+    }
+
       // Iteramos el objeto de filtros y lo agregamos a HttpParams()
       Object.entries(filtros).forEach(([key, value]) => {
         if (value && value !== 'Todos') {
@@ -32,7 +39,7 @@ export class ApiService {
       })
 
     // devolvemos la respuesta completa para poder acceder a los headers (x-total-count)
-    console.log(params.toString());
+    console.log("El link es " +params.toString());
     
     return this.http.get<any[]>(this.baseUrl, { 
       params: params, // Pasamos los parámetros a la solicitud
