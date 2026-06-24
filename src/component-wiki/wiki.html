@@ -11,10 +11,13 @@
 
     <div class="grid grid-cols-12">
      <!-- El Hidden + sm:block bloqueamos el elemento html -->
-    <div class="hidden sm:block col-span-3">
+    <div class="hidden sm:block md:block col-span-3">
         <app-wiki-sidebar></app-wiki-sidebar></div>
     <div class="col-span-12 lg:col-span-9 bg-orange-50">
         <app-wiki-navbar></app-wiki-navbar>
+        <div class="lg:hidden">
+            <app-wiki-filter-mobile></app-wiki-filter-mobile>
+        </div>
         @if (this.modalService.getMapaBool()) {
             <app-wiki-map></app-wiki-map>
         } @else {

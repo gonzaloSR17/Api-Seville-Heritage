@@ -6,9 +6,10 @@ import { WikiModalMap } from "./wiki-modal-map/wiki-modal-map";
 import { WikiMap } from './wiki-map/wiki-map';
 import { WikiNavbar } from './wiki-navbar/wiki-navbar';
 import { ModalService } from '../services/modal-service';
+import { WikiFilterMobile } from './wiki-filter-mobile/wiki-filter-mobile';
 @Component({
   selector: 'app-wiki',
-  imports: [WikiMain, WikiSidebar, WikiModal, WikiModalMap, WikiMap, WikiNavbar],
+  imports: [WikiMain, WikiSidebar, WikiModal, WikiModalMap, WikiMap, WikiNavbar, WikiFilterMobile],
   templateUrl: './wiki.html',
   styleUrl: './wiki.css',
 })
