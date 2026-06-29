@@ -1,6 +1,6 @@
 [build]
   command = "npm install && npm run build"
-  publish = "dist/sevilla-historica/browser"
+  publish = "dist/Sevilla-Historica/browser"
 
 [[redirects]]
   from = "/*"
