@@ -123,8 +123,8 @@ export class WikiMap implements AfterViewInit, OnInit {
         if(imagen) {
             return L.icon({
               iconUrl: imagen, // Recomendación abajo
-              iconSize: [35, 35],
-              iconAnchor: [17.5, 35]
+              iconSize: [55, 55],
+              iconAnchor: [47.5, 35]
            });
         }
         return this.icono
