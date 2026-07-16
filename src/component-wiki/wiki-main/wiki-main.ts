@@ -160,6 +160,36 @@ cargarApartadoMapa() {
   this.modalService.cambiarMapa();
 }
 
+// Detectar si el movil (ancho de pantalla menor a 768px por ejemplo)
+get esMovil(): boolean {
+  return window.innerWidth < 768;
+}
+
+get paginasVisibles(): (number | string)[] {
+
+  // Alamcenamos las variables
+  const total = this.totalPages;
+  
+  // Si hay pocas paginas...
+  if (total <= 7) {
+    return this.pages;
+  }
+
+  if (this.esMovil) {
+    // Si estamos en movil: las 3 primeras ... las 3 ultimas
+    const primeras = [1, 2, 3];
+    const ultimas = [total - 2, total - 1, total];
+
+    // Evitamos duplicados en el caso extremo de que se solapen (aunque con total > 7 no pasará)
+    return [...primeras, '...', ...ultimas];
+  } else {
+    // Si es escritorio, mostramos todas por defecto (o puedes usar la lógica de rango del paso anterior)
+    return this.pages;
+  } 
+
+}
+
+
 }
 
 

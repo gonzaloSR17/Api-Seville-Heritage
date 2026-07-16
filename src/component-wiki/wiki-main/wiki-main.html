@@ -48,15 +48,41 @@
   </div>
 
   <!-- Paginacion (Botones)-->
-   <div class="flex justify-center my-4 gap-2 overflow-x-auto">
-    <button class="bg-gray-200 hover:bg-gray-400 rounded p-2" (click)="anteriorApartado()"><</button>
-    @for (page of pages; track page) {
-    <button class="bg-gray-200 hover:bg-gray-400 rounded p-2 hidden sm:block md:block" [ngClass]="marcarPagina(page)
-      ? 'bg-orange-300 hover:bg-orange-500'
-      : 'bg-gray-200 hover:bg-gray-400'" (click)="obtenerCiudades(page)">{{ page }}</button>
+  <div class="flex justify-center my-4 gap-2 overflow-x-auto items-center">
+  <!-- Botón Anterior -->
+  <button 
+    class="bg-gray-200 hover:bg-gray-400 rounded p-2 disabled:opacity-50" 
+    [disabled]="countPage === 1" 
+    (click)="anteriorApartado()">
+    <
+  </button>
+
+  <!-- Páginas dinámicas -->
+  @for (page of paginasVisibles; track $index) {
+    @if (page === '...') {
+      <!-- Puntos suspensivos (no cliqueables) -->
+      <span class="px-2 text-gray-500 font-bold">...</span>
+    } @else {
+      <!-- Botón de página normal -->
+      <button 
+        class="rounded p-2 transition-colors duration-200" 
+        [ngClass]="marcarPagina($any(page))
+          ? 'bg-orange-300 hover:bg-orange-500 font-bold'
+          : 'bg-gray-200 hover:bg-gray-400'" 
+        (click)="obtenerCiudades($any(page))">
+        {{ page }}
+      </button>
     }
-    <button class="bg-gray-200 hover:bg-gray-400 rounded p-2" (click)="siguienteApartado()">></button>
-   </div>
+  }
+
+  <!-- Botón Siguiente -->
+  <button 
+    class="bg-gray-200 hover:bg-gray-400 rounded p-2 disabled:opacity-50" 
+    [disabled]="countPage === totalPages" 
+    (click)="siguienteApartado()">
+    >
+  </button>
+</div>
 </div>
 
 <app-wiki-modal></app-wiki-modal>
