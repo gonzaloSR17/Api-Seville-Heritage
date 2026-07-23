@@ -4,11 +4,11 @@
 
 Built with **Angular**, the application follows a modular, component-based architecture and retrieves data from a **REST API** to deliver a fast, responsive, and dynamic user experience.
 
-<p align="center">
-  <img src="./public/gif1.gif" alt="Seville Heritage Demo" width="900">
-</p>
-
 ## 🌐 Live Demo
+
+<p align="center">
+  <img src="./public/gif2.gif" alt="Seville Heritage Demo" width="900">
+</p>
 
 👉 **Explore the application:**  
 https://gonzalosr17.github.io/Api-Seville-Heritage/
