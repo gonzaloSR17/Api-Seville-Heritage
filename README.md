@@ -1,66 +1,33 @@
-<<<<<<< HEAD
-# SevillaHistorica
+# 🏛️ Seville Heritage
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.1.
+**Seville Heritage** is a **Single Page Application (SPA)** that allows users to explore Seville's architectural and historical heritage through an intuitive and interactive interface.
 
-## Development server
+Built with **Angular**, the application follows a modular, component-based architecture and retrieves data from a **REST API** to deliver a fast, responsive, and dynamic user experience.
 
-To start a local development server, run:
+## 🌐 Live Demo
 
-```bash
-ng serve
-```
+👉 **Explore the application:**  
+https://gonzalosr17.github.io/Api-Seville-Heritage/
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## ✨ Key Features
 
-## Code scaffolding
+- 🗺️ Interactive maps powered by **Leaflet.js** and **OpenStreetMap**
+- 🔎 Advanced filtering by architect, district, category, and construction year
+- 📄 Detailed monument information displayed in responsive modal dialogs
+- ⚡ Reactive data management using **RxJS**
+- 📱 Fully responsive interface built with **Tailwind CSS** and **PrimeNG**
+- 🧩 Modular Angular architecture following best practices
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 Tech Stack
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# Seville-Heritage
-An interactive web app to explore Seville’s historic buildings through a curated catalog and an interactive map.
->>>>>>> 8da5379560448a5db386c118468699c4fec8493a
-"# Api-Seville-Heritage" 
-"# Api-Seville-Heritage" 
+| Category                   | Technologies                                                                            |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| 🎨 **Frontend**            | Angular 14+, TypeScript, HTML5                                                          |
+| 💅 **Styling & UI**        | CSS3, Tailwind CSS, PrimeNG, Flexbox, CSS Grid                                          |
+| 🌐 **API Communication**   | Angular HttpClient, REST API, JSON                                                      |
+| ⚡ **Reactive Programming** | RxJS, Observables                                                                       |
+| 🗺️ **Maps**               | Leaflet.js, OpenStreetMap                                                               |
+| 🏛️ **Architecture**       | Single Page Application (SPA), Client–Server Architecture, Component-Based Architecture |
+| 🔍 **Features**            | Dynamic filtering, advanced search, interactive maps, modal dialogs                     |
+| 📱 **Responsive Design**   | Mobile-First Design, Tailwind CSS, Flexbox, CSS Grid                                    |
+| 🌱 **Version Control**     | Git, GitHub                                                                             |
